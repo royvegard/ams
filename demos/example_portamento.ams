@@ -1,0 +1,52 @@
+Module 7 1 629 140 0 0
+Port 0 0 1 7
+Port 1 0 1 7
+FSlider 1 0 8826 0 0 16384 1
+FSlider 1 1 8192 0 0 16384 1
+FSlider 1 2 8192 0 0 16384 1
+ComboBox 1 0 1 1
+Module 1 2 330 58 0 0
+Port 1 0 2 11
+FSlider 2 0 0 0 0 16384 1
+FSlider 2 1 1638 0 0 163840 1
+FSlider 2 2 0 0 0 163840 1
+FSlider 2 3 8192 0 1638 14745 1
+FSlider 2 4 0 0 0 163840 1
+FSlider 2 5 0 0 0 163840 1
+ISlider 2 0 1 1
+ISlider 2 1 1 1
+ISlider 2 2 1 1
+ComboBox 2 0 0 1
+Module 9 7 484 59 0 0
+Port 0 2 7 2
+Port 1 0 7 11
+FSlider 7 0 16384 0 0 163840 1
+FSlider 7 1 75818 0 52358 109656 1
+FSMIDI 7 1 10 0 1
+FSlider 7 2 0 0 0 163840 1
+FSlider 7 3 0 0 0 163840 1
+FSlider 7 4 13107 0 163 16384 1
+FSlider 7 5 0 0 0 16384 1
+ComboBox 7 0 6 1
+Module 15 11 174 118 0 0
+Port 0 1 11 13
+FSlider 11 0 8192 0 0 163840 1
+FSlider 11 1 8192 0 0 163840 1
+Module 10 13 29 91 0 0
+FSlider 13 0 129 0 -16384 16384 1
+FSMIDI 13 0 13 0 0
+ISlider 13 0 24 1
+ComboBox 13 0 0 1
+Comment 0 0 207 299 330 186
+#PARA# 0 0 0
+This patch demonstrates the Slew Limiter. This module limits the slope of the input control signal.
+#ARAP#
+#PARA# 0 0 1
+Different values can be supplied for rising and falling signals.
+#ARAP#
+#PARA# 0 0 2
+
+#ARAP#
+#PARA# 0 0 3
+Here, the slew limiter features a portamento. You might want to add ENV and VCA modules as well.
+#ARAP#

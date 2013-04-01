@@ -1,0 +1,106 @@
+Module 7 1 680 387 0 0
+Port 0 0 1 10
+Port 1 1 1 10
+FSlider 1 0 13849 0 0 16384 1
+FSlider 1 1 16384 0 0 16384 1
+FSlider 1 2 16384 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 145 13 0 0
+Port 0 0 3 12
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 -73410 1 -113176 0 1
+FSlider 3 2 98 0 0 16384 1
+FSlider 3 3 4625 0 0 16384 1
+FSlider 3 4 5166 0 0 16384 1
+FSlider 3 5 -64235 1 -113176 0 1
+FSlider 3 6 16384 0 1638 163840 1
+Module 2 4 532 178 0 0
+Port 0 0 4 3
+Port 2 0 4 7
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 19529 0 0 32768 1
+FSlider 4 3 8192 0 0 32768 1
+FSlider 4 4 8192 0 0 32768 1
+Module 1 5 189 262 0 0
+Port 1 1 5 12
+Port 2 0 5 14
+Port 4 1 5 14
+FSlider 5 0 0 0 0 16384 1
+FSlider 5 1 -37725 1 -113176 37725 1
+FSlider 5 2 0 0 0 163840 1
+FSlider 5 3 13525 0 1638 14745 1
+FSlider 5 4 394 0 0 163840 1
+FSlider 5 5 0 0 0 163840 1
+ISlider 5 0 0 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 0 1
+Module 9 7 338 244 0 0
+Port 0 3 7 5
+Port 1 0 7 9
+Port 2 0 7 14
+FSlider 7 0 4920 0 0 163840 1
+FSlider 7 1 70212 0 0 139328 1
+FSMIDI 7 1 10 0 1
+FSlider 7 2 3936 0 0 163840 1
+FSlider 7 3 0 0 0 163840 1
+FSlider 7 4 11464 0 163 16384 1
+FSlider 7 5 0 0 0 16384 1
+ComboBox 7 0 6 1
+Module 15 9 225 158 0 0
+Port 0 1 9 12
+FSlider 9 0 939 0 0 163840 1
+FSlider 9 1 939 0 0 163840 1
+Module 6 10 505 386 0 cmt Freeverb (Version 3)
+Port 0 0 10 21
+Port 1 0 10 21
+FSlider 10 0 6554 0 0 16384 1
+FSlider 10 1 -89825 1 -113176 0 1
+FSlider 10 2 -11744 1 -113176 0 1
+FSlider 10 3 -11744 1 -113176 0 1
+FSlider 10 4 16384 0 0 16384 1
+CheckBox 10 0 0 1
+Module 10 12 13 120 0 0
+FSlider 12 0 129 0 -16384 16384 1
+FSMIDI 12 0 13 0 0
+ISlider 12 0 24 1
+ComboBox 12 0 0 1
+Module 3 14 12 346 0 0
+FSlider 14 0 112669 0 0 1638400 1
+FSlider 14 1 0 0 0 102940 1
+Module 11 18 348 13 0 0
+Port 0 0 18 12
+FSlider 18 0 2903 0 0 16384 1
+FSlider 18 1 394 0 0 16384 1
+FSlider 18 2 246 0 0 16384 1
+FSlider 18 3 2903 0 0 16384 1
+FSlider 18 4 0 0 0 16384 1
+FSlider 18 5 819 0 0 16384 1
+FSlider 18 6 5048 0 1638 163840 1
+Module 1 20 189 495 0 0
+Port 1 1 20 12
+FSlider 20 0 98 0 0 16384 1
+FSlider 20 1 -37725 1 -113176 37725 1
+FSlider 20 2 0 0 0 163840 1
+FSlider 20 3 8192 0 1638 14745 1
+FSlider 20 4 0 0 0 163840 1
+FSlider 20 5 0 0 0 163840 1
+ISlider 20 0 4 1
+ISlider 20 1 1 1
+ISlider 20 2 1 1
+ComboBox 20 0 0 1
+Module 8 21 674 208 2 0
+Port 0 0 21 24
+Port 1 0 21 4
+FSlider 21 0 16384 0 0 32768 1
+FSlider 21 1 1690 0 0 32768 1
+FSlider 21 2 16525 0 0 32768 1
+Module 2 24 532 12 0 0
+Port 0 0 24 18
+Port 2 0 24 20
+FSlider 24 0 0 0 0 163840 1
+FSlider 24 1 0 0 0 163840 1
+FSlider 24 2 16384 0 0 32768 1
+FSlider 24 3 16384 0 0 32768 1
+FSlider 24 4 16384 0 0 32768 1

@@ -1,0 +1,97 @@
+ams-2.1.0 (2012-??-??)
+
+  Fixed Bugs
+    o Linker error "undefined reference to symbol 'dlsym@@GLIBC_2.2.5'"
+      on Fedora 13.
+    o Crash on using looped signal paths
+    o Armel compile error (debian #570848)
+    o Prevent crash if jack handle is NULL (lp #553366)
+    o Fix preferences dialog to show current color setup
+    o Fix broken Yes/No/Cancel response on program exit
+    o Fix memory leak in preferences widget
+    o Fix triggered reset of LFO saw signals, patch provided by Bill
+      Yerazunis
+    o Reorganized commandline options for input and output to
+      be valid for Alsa and JACK
+
+
+  New Features
+    o SIGUSR1 handler added to enable LADI session handling on
+      application level 1.
+    o Support for libclalsadrv API version 2.0.0
+    o Support for libzita-alsa-pcmi as an alternative for libclalsadrv
+    o Improved port selection handling, patch provided by Sebastien
+      Alaiwan
+    o New context menu to disconnect module output ports
+    o Support for JACK session handling
+    o Rewritten preferences dialog
+    o New about dialog
+    o New option for saving window geometry (session handling)
+    o New option hiding recently used files menu (keep secrets)
+    o Add new menu item to open demo patch files directly
+    o Add new menu item to open demo instrument patch files directly
+    o Add keyboard shortcuts for module configuration dialogs
+    o New option for module position grid (snap to grid)
+    o New V8 Sequencer module, provided by Bill Yerazunis
+    o New Analog Memory module, provided by Bill Yerazunis
+    o New Bitgrinder module, provided by Bill Yerazunis
+    o New Hysteresis module, provided by Bill Yerazunis
+    o New VC-Delay module, provided by Bill Yerazunis
+    o Add Pulsetrain Noise type to Noise 2 module, patch provided by
+      Bill Yerazunis
+    o New FFT Vocoder module, provided by Bill Yerazunis
+    o Make control center window position and MIDI settings persistent
+
+  General Changes
+    o Separate handling of color scheme directory from patch file
+      directoy.
+    o Improved handling of CXXFLAGS variables
+    o Add check for Ladspa header file.
+    o Obsolete commandline option -l (preset file) removed
+    o New commandline option for program version (--version)
+
+
+
+ams-2.0.1 (2009-12-26)
+
+  Fixed Bugs
+    o Compile error for Qt 4.2 fixed
+    o Highlight MIDI controller in Control Center,
+      if MIDI event has been received.
+    o Fix crash unbinding multiple controllables connected to the
+      same midi controller.
+    o Initialized variable in env-module. 
+      Fixes env-module mute bug discribed by lee(mrleelee).
+
+  New Features
+    o
+
+  General Changes
+    o MIDI channel numbering changed from 0..15	to 1..16.
+
+
+
+ams-2.0.0 (2009-06-12)
+
+  New Features
+    o Redesign of 3D look
+    o Application icon
+    o German translation
+    o Keyboard shortcuts for menu and dialog items
+    o Menu item for recently opened files
+    o French translation (by Fank Kober)
+    o New --name command line option to specify the ALSASEQ/JACK
+      clientname
+    o Legato in monophonic mode using the "--poly 1" command line
+      option (by Atte Andre Jensen)
+
+  General Changes
+    o Port form Qt 3 to Qt 4.x library.
+    o A newly written autoconf/automake environment now provides the
+      usual "./configure && make && make install" comfort.
+    o Command line options are reworked.
+      - JACK now is the default interface, if the connection fails ams
+        connects to ALSA. This behavior can be modified using the -J and
+        -A options.
+      - The initial patch file to be loaded no longer needs the -l
+        option.

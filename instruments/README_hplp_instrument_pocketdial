@@ -1,0 +1,55 @@
+Controller layout for Doepfer Pocket Dial and hplp_instrument_pocketdial.ams
+----------------------------------------------------------------------------
+
+Bank1: Ctrl 16-31
+Bank2: Ctrl 32-47
+Bank3: Ctrl 48-63
+Bank4: Ctrl 64-79
+
+Bank 1: 
+------
+
+ 1      2      3      4      5      6      7      8  
+Freq          Freq          Freq          VCO1   VCO2
+
+   VCO1          VCO2          VCO3          Mixer
+
+ 9     10     11     12     13     14     15     16
+Oct           Oct           Oct           VCO3   Noise
+
+
+Bank 2: 
+------
+
+ 1      2      3      4      5      6      7      8  
+Freq  Poles   In                   Freq          In
+ 
+     Lowpass                            Highpass
+
+ 9     10     11     12     13     14     15     16
+Reso  EnvAmt  Out                 Level  EnvAmt  Out
+
+
+Bank 3: 
+------
+
+ 1      2      3      4      5      6      7      8  
+Att    Dec    Sus    Rel    Att    Dec    Sus    Rel    
+
+     HP Envelope                Volume Envelope 
+     LP Envelope       HPEnvToReso    Envelope Ratios
+
+ 9     10     11     12     13     14     15     16
+Att    Dec    Sus    Rel ResoEnv LPRatio HPRatio VolRatio
+
+Bank 4: 
+------
+
+ 1      2      3      4      5      6      7      8  
+Freq   Saw        PitchMod PanGain Room  InputBW Reflections
+
+       LFO        LFO Mod   Pan          Reverb
+
+ 9     10     11     12     13     14     15     16
+Tri   Rect   S&H  FiltMod  PanOfs  Time  Damping Tail
+

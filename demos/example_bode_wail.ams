@@ -1,0 +1,76 @@
+Module 6 1 274 229 0 bode_shifter_cv_1432 Bode frequency shifter (CV)
+Port 0 0 1 20
+Port 1 0 1 4
+FSlider 1 0 10874336 0 0 81920000 1
+FSlider 1 1 -2658 0 -16384 16384 1
+FSlider 1 2 3963 0 0 16384 1
+Module 7 2 878 335 0 0
+Port 0 0 2 10
+Port 1 1 2 10
+FSlider 2 0 8192 0 0 16384 1
+FSlider 2 1 8192 0 0 16384 1
+FSlider 2 2 8192 0 0 16384 1
+ComboBox 2 0 1 1
+Module 1 3 154 27 0 0
+Port 1 0 3 11
+FSlider 3 0 659 0 0 16384 1
+FSlider 3 1 1638 0 0 163840 1
+FSlider 3 2 0 0 0 163840 1
+FSlider 3 3 5818 0 1638 14745 1
+FSlider 3 4 0 0 0 16384 1
+FSlider 3 5 0 0 0 102940 1
+ISlider 3 0 5 1
+ISlider 3 1 1 1
+ISlider 3 2 2 1
+ComboBox 3 0 0 1
+Module 3 4 151 316 0 0
+FSlider 4 0 1638400 0 0 1638400 1
+FSlider 4 1 0 0 0 102940 1
+Module 6 5 444 355 0 bode_shifter_cv_1432 Bode frequency shifter (CV)
+Port 0 1 5 1
+Port 1 1 5 6
+FSlider 5 0 1642378 0 0 8699469 1
+FSlider 5 1 14354 0 -16384 16384 1
+FSlider 5 2 16384 0 0 16384 0
+Module 3 6 299 364 0 0
+FSlider 6 0 1536906 0 0 1638400 1
+FSlider 6 1 0 0 0 102940 1
+Module 8 7 605 296 2 0
+Port 0 0 7 1
+Port 1 2 7 5
+FSlider 7 0 16384 0 0 32768 1
+FSlider 7 1 16384 0 0 32768 1
+FSlider 7 2 16384 0 0 32768 1
+Module 6 10 707 334 0 gverb_1216 GVerb
+Port 0 0 10 7
+FSlider 10 0 1335879 0 16384 4915200 1
+FSlider 10 1 804890 0 1638 5898240 1
+FSlider 10 2 10297 0 0 16384 1
+FSlider 10 3 964 0 0 16384 1
+FSlider 10 4 -305361 0 -1146880 0 1
+FSlider 10 5 -426085 0 -1146880 0 1
+FSlider 10 6 -379926 0 -1146880 0 1
+Module 3 11 17 3 0 0
+FSlider 11 0 136 0 0 4206 1
+FSlider 11 1 68627 0 0 102940 1
+Module 6 17 826 223 0 fad_delay_1192 Fractionally Addressed Delay Line
+Port 0 0 17 10
+FSlider 17 0 10305 0 1638 163840 1
+FSlider 17 1 -443577 0 -1146880 0 1
+Module 17 19 19 194 0 0
+FSlider 19 0 8192 0 0 16384 1
+FSlider 19 1 8192 0 0 16384 1
+FSlider 19 2 8192 0 0 16384 1
+Module 8 20 499 25 4 0
+Port 0 0 20 17
+Port 1 1 20 3
+Port 2 0 20 19
+FSlider 20 0 16384 0 0 32768 1
+FSlider 20 1 16259 0 0 32768 1
+FSlider 20 2 16176 0 0 32768 1
+FSlider 20 3 16384 0 0 32768 1
+FSlider 20 4 16384 0 0 32768 1
+Comment 0 0 267 22 200 170
+#PARA# 0 0 0
+This patch has been contributed by Steve Harris.
+#ARAP#

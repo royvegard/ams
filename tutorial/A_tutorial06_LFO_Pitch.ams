@@ -1,0 +1,68 @@
+Module 1 1 621 176 0 0
+Port 1 1 1 3
+Port 2 0 1 6
+FSlider 1 0 0 0 0 16384 1
+FSlider 1 1 8192 0 1638 14745 1
+FSlider 1 2 0 0 0 16384 1
+FSlider 1 3 0 0 0 102940 1
+FSlider 1 4 16384 0 0 163840 1
+FSlider 1 5 0 0 0 163840 1
+ISlider 1 0 2 1
+ISlider 1 1 1 1
+ISlider 1 2 1 1
+ComboBox 1 0 0 1
+Module 2 2 423 6 0 0
+Port 0 0 2 4
+Port 2 1 2 1
+FSlider 2 0 0 0 0 163840 1
+FSlider 2 1 0 0 0 163840 1
+FSlider 2 2 16384 0 0 32768 1
+FSlider 2 3 16384 0 0 32768 1
+FSlider 2 4 16384 0 0 32768 1
+Module 10 3 11 5 0 0
+FSlider 3 0 0 0 -16384 16384 1
+ISlider 3 0 24 1
+ComboBox 3 0 0 1
+Module 11 4 191 6 0 0
+Port 0 0 4 3
+Port 1 3 4 3
+FSlider 4 0 0 0 0 16384 1
+FSlider 4 1 819 0 0 16384 1
+FSlider 4 2 327 0 0 16384 1
+FSlider 4 3 1638 0 0 16384 1
+FSlider 4 4 11468 0 0 16384 1
+FSlider 4 5 819 0 0 16384 1
+FSlider 4 6 16384 0 1638 163840 1
+Module 7 5 619 60 0 0
+Port 0 0 5 2
+Port 1 0 5 2
+FSlider 5 0 8192 0 0 16384 1
+FSlider 5 1 8192 0 0 16384 1
+FSlider 5 2 8192 0 0 16384 1
+ComboBox 5 0 1 1
+Module 8 6 423 237 2 0
+Port 0 1 6 7
+Port 1 4 6 8
+FSlider 6 0 16384 0 0 32768 1
+FSlider 6 1 1130 0 0 32768 1
+FSlider 6 2 16384 0 0 32768 1
+Module 3 7 35 206 0 0
+FSlider 7 0 31220 1 -75451 75451 1
+FSlider 7 1 0 0 0 102940 1
+Module 3 8 236 326 0 0
+Port 0 3 8 3
+FSlider 8 0 -2601 1 -75451 75451 1
+FSlider 8 1 54766 0 0 102940 1
+Comment 0 0 38 24 558 376
+#PARA# 0 0 0
+A LFO (Low Frequency Oscillator) is useful whenever a subaudio oscillation is needed. The most basic application is the generation of a vibrato.  
+#ARAP#
+#PARA# 0 0 1
+In this patch we use two LFOs. LFO ID 8 generates octave jumps whereas LFO ID7 adds a vibrato. The LFO module of AlsaModularSynth has an amplitude of one Volt. "Volume 1" and "Gain" of the Mixer module are both 1. Since also the "Exp. FM Gain" of the VCO is 1, LFO ID 8 modulates the VCO indeed by  1 Volt  which corresponds to one octave.  
+#ARAP#
+#PARA# 0 0 2
+The parameter "Volume 0" of the Mixer specifies the amount of vibrato.  
+#ARAP#
+#PARA# 0 0 3
+Note that both the interval of the vibrato and the octave jumps are independent of the pitch of the notes that you are playing. This is the benefit of using the logarithmic frequency unit of 1 Volt / Octave. You can try how this behaves when you connect the output of the Mixer with the Lin. FM input of the VCO instead of the Exp. FM input. Try different values for "Lin. FM Gain" and see how the intervals vary with the pitch.  
+#ARAP#

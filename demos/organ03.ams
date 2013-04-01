@@ -1,0 +1,97 @@
+Module 33 1 130 21 0 0
+Port 0 1 1 2
+ISlider 1 0 0 1
+ComboBox 1 0 1 1
+Module 10 2 4 8 0 0
+FSlider 2 0 0 0 -16384 16384 1
+ISlider 2 0 24 1
+ComboBox 2 0 0 1
+Module 7 3 565 324 0 0
+Port 0 0 3 6
+Port 1 1 3 6
+FSlider 3 0 8192 0 0 16384 1
+FSlider 3 1 8192 0 0 16384 1
+FSlider 3 2 8192 0 0 16384 1
+ComboBox 3 0 1 1
+Module 6 4 264 8 3 cmt Organ
+Port 0 0 4 2
+Port 2 0 4 1
+FSlider 4 0 16384 0 0 16384 1
+FSlider 4 1 0 0 0 327680000 1
+FSlider 4 2 16384 0 0 16384 1
+FSlider 4 3 16384 0 0 16384 1
+FSlider 4 4 16384 0 0 16384 1
+FSlider 4 5 16384 0 0 16384 1
+FSlider 4 6 16384 0 0 16384 1
+FSlider 4 7 16384 0 0 16384 1
+FSlider 4 8 163 0 163 16384 1
+FSlider 4 9 163 0 163 16384 1
+FSlider 4 10 16384 0 0 16384 1
+FSlider 4 11 163 0 163 16384 1
+FSlider 4 12 163 0 163 16384 1
+FSlider 4 13 163 0 163 16384 1
+FSlider 4 14 16384 0 0 16384 1
+FSlider 4 15 163 0 163 16384 1
+CheckBox 4 0 0 1
+CheckBox 4 1 1 1
+CheckBox 4 2 1 1
+CheckBox 4 3 1 1
+Module 6 6 501 202 0 g2reverb Stereo reverb
+Port 0 0 6 8
+Port 1 0 6 8
+FSlider 6 0 1446312 0 163840 2457600 1
+FSlider 6 1 41686 0 16384 327680 1
+FSlider 6 2 13115 0 0 16384 1
+FSlider 6 3 4520 0 0 16384 1
+FSlider 6 4 0 0 -1310720 0 1
+FSlider 6 5 -67796 0 -1310720 0 1
+FSlider 6 6 -158190 0 -1310720 0 1
+Module 11 7 132 118 0 0
+Port 0 0 7 2
+Port 1 3 7 2
+FSlider 7 0 0 0 0 16384 1
+FSlider 7 1 81 0 0 16384 1
+FSlider 7 2 0 0 0 16384 1
+FSlider 7 3 487 0 0 16384 1
+FSlider 7 4 16384 0 0 16384 1
+FSlider 7 5 203 0 0 16384 1
+FSlider 7 6 16384 0 1638 163840 1
+Module 2 8 632 2 0 0
+Port 0 0 8 7
+Port 2 0 8 4
+Port 3 0 8 12
+FSlider 8 0 0 0 0 163840 1
+FSlider 8 1 0 0 0 163840 1
+FSlider 8 2 16384 0 0 32768 1
+FSlider 8 3 16384 0 0 32768 1
+FSlider 8 4 16384 0 0 32768 1
+Module 1 10 7 248 0 0
+Port 1 1 10 2
+FSlider 10 0 0 0 0 16384 1
+FSlider 10 1 8192 0 1638 14745 1
+FSlider 10 2 0 0 0 16384 1
+FSlider 10 3 0 0 0 102940 1
+FSlider 10 4 0 0 0 163840 1
+FSlider 10 5 0 0 0 163840 1
+ISlider 10 0 1 1
+ISlider 10 1 1 1
+ISlider 10 2 1 1
+ComboBox 10 0 2 1
+Module 1 11 120 249 0 0
+Port 1 1 11 2
+FSlider 11 0 81 0 0 16384 1
+FSlider 11 1 8192 0 1638 14745 1
+FSlider 11 2 0 0 0 16384 1
+FSlider 11 3 0 0 0 102940 1
+FSlider 11 4 0 0 0 163840 1
+FSlider 11 5 0 0 0 163840 1
+ISlider 11 0 2 1
+ISlider 11 1 1 1
+ISlider 11 2 1 1
+ComboBox 11 0 1 1
+Module 8 12 526 76 2 0
+Port 0 4 12 10
+Port 1 4 12 11
+FSlider 12 0 10654 0 0 32768 1
+FSlider 12 1 18967 0 0 32768 1
+FSlider 12 2 13640 0 0 32768 1

@@ -1,0 +1,289 @@
+Module 22 1 141 179 0 0
+ColorP 0 0 1 9 250 200 50 180 180 180
+ColorP 1 3 1 9 250 200 50 180 180 180
+FSlider 1 0 16384 0 1638 163840 1
+FSlider 1 1 11468 0 0 16384 1
+FSlider 1 2 0 0 0 16384 1
+FSlider 1 3 541 0 0 16384 1
+FSlider 1 4 11438 0 0 16384 1
+FSlider 1 5 309 0 0 16384 1
+FSlider 1 6 3632 0 0 16384 1
+FSlider 1 7 927 0 0 16384 1
+FSlider 1 8 14745 0 0 16384 1
+FSlider 1 9 2164 0 0 16384 1
+FSlider 1 10 819 0 0 16384 1
+FSlider 1 11 8192 0 0 16384 1
+FSlider 1 12 819 0 0 16384 1
+FSlider 1 13 3276 0 0 16384 1
+FSlider 1 14 819 0 0 16384 1
+Module 6 3 141 33 2 mvclpf24 Mvclpf-3
+ColorP 0 0 3 12 250 200 50 180 180 180
+ColorP 1 3 3 14 250 200 50 180 180 180
+ColorP 2 0 3 1 250 200 50 180 180 180
+FSlider 3 0 -65536 0 -983040 163840 1
+FSlider 3 1 -35478 0 -81920 81920 1
+FSlider 3 2 56343 0 0 163840 1
+FSlider 3 3 1290 0 0 16384 1
+FSlider 3 4 0 0 0 16384 1
+FSlider 3 5 65610 0 -245760 245760 1
+FSMIDI 3 1 13 0 0
+FSMIDI 3 3 10 0 1
+Module 1 4 390 183 0 0
+ColorP 1 1 4 14 250 200 50 180 180 180
+FSlider 4 0 0 0 0 16384 1
+FSlider 4 1 8192 0 1638 14745 1
+FSlider 4 2 0 0 0 16384 1
+FSlider 4 3 0 0 0 102940 1
+FSlider 4 4 0 0 0 163840 1
+FSlider 4 5 0 0 0 163840 1
+ISlider 4 0 1 1
+ISlider 4 1 1 1
+ISlider 4 2 1 1
+ComboBox 4 0 0 1
+Module 7 5 602 182 0 0
+ColorP 0 0 5 7 250 200 50 180 180 180
+ColorP 1 1 5 7 250 200 50 180 180 180
+FSlider 5 0 2697 0 0 16384 1
+FSlider 5 1 8192 0 0 16384 1
+FSlider 5 2 8192 0 0 16384 1
+ComboBox 5 0 0 1
+Module 6 7 507 72 0 gverb_1216 gverb
+ColorP 0 0 7 8 250 200 50 180 180 180
+FSlider 7 0 1790093 0 16384 4915200 1
+FSlider 7 1 30685 0 1638 5898240 1
+FSlider 7 2 2018 0 0 16384 1
+FSlider 7 3 14729 0 0 16384 1
+FSlider 7 4 0 0 -1146880 0 1
+FSlider 7 5 -107343 0 -1146880 0 1
+FSlider 7 6 -50847 0 -1146880 0 1
+Module 2 8 392 16 0 0
+ColorP 0 0 8 1 250 200 50 180 180 180
+ColorP 2 0 8 3 250 200 50 180 180 180
+FSlider 8 0 0 0 0 16384 1
+FSlider 8 1 0 0 0 16384 1
+FSlider 8 2 16384 0 0 32768 1
+FSlider 8 3 16384 0 0 32768 1
+FSlider 8 4 16384 0 0 32768 1
+Module 10 9 5 81 0 0
+FSlider 9 0 0 0 -16384 16384 1
+ISlider 9 0 24 1
+ComboBox 9 0 0 1
+Module 1 10 495 183 0 0
+ColorP 1 2 10 14 250 200 50 180 180 180
+FSlider 10 0 122 0 0 16384 1
+FSlider 10 1 8192 0 1638 14745 1
+FSlider 10 2 0 0 0 16384 1
+FSlider 10 3 0 0 0 102940 1
+FSlider 10 4 0 0 0 163840 1
+FSlider 10 5 0 0 0 163840 1
+ISlider 10 0 1 1
+ISlider 10 1 1 1
+ISlider 10 2 1 1
+ComboBox 10 0 0 1
+Module 1 11 280 182 0 0
+ColorP 1 0 11 14 250 200 50 180 180 180
+FSlider 11 0 203 0 0 16384 1
+FSlider 11 1 8192 0 1638 14745 1
+FSlider 11 2 0 0 0 16384 1
+FSlider 11 3 0 0 0 102940 1
+FSlider 11 4 0 0 0 163840 1
+FSlider 11 5 0 0 0 163840 1
+ISlider 11 0 1 1
+ISlider 11 1 1 1
+ISlider 11 2 1 1
+ComboBox 11 0 0 1
+Module 8 12 611 298 4 0
+ColorP 0 2 12 4 250 200 50 180 180 180
+ColorP 1 2 12 10 250 200 50 180 180 180
+ColorP 2 2 12 11 250 200 50 180 180 180
+FSlider 12 0 16384 0 0 32768 1
+FSlider 12 1 16384 0 0 32768 1
+FSlider 12 2 16384 0 0 32768 1
+FSlider 12 3 16384 0 0 32768 1
+FSlider 12 4 16384 0 0 32768 1
+Module 42 14 40 323 4 0
+ColorP 0 1 14 9 250 200 50 180 180 180
+FSlider 14 0 -86807 1 -150902 -40582 1
+FSlider 14 1 -75451 1 -75451 0 1
+FSlider 14 2 0 1 -75451 37725 1
+FSlider 14 3 -86807 1 -150902 -40582 1
+FSlider 14 4 -75451 1 -75451 0 1
+FSlider 14 5 17999 1 -75451 37725 1
+ComboBox 14 0 0 1
+ComboBox 14 1 1 1
+CheckBox 14 0 0 1
+Tab "Envelope"
+Tab "Filter"
+Frame "Envelope Attack Level" 0
+Parameter "Attack Level 0 ID 1" 1 4 0 16384 0
+Parameter "Attack Level 1 ID 1" 1 6 0 16384 0
+Parameter "Attack Level 2 ID 1" 1 8 0 16384 0
+Frame "Envelope Attack Time" 0
+Parameter "Attack Time 0 ID 1" 1 3 0 16384 0
+Parameter "Attack Time 1 ID 1" 1 5 0 16384 0
+Parameter "Attack Time 2 ID 1" 1 7 0 16384 0
+Parameter "Attack Time 3 ID 1" 1 9 0 16384 0
+Frame "Envelope Release Level" 0
+Parameter "Release Level 0 ID 1" 1 11 0 16384 0
+Parameter "Release Level 1 ID 1" 1 13 0 16384 0
+Frame "Envelope Release Time" 0
+Parameter "Release Time 0 ID 1" 1 10 0 16384 0
+Parameter "Release Time 1 ID 1" 1 12 0 16384 0
+Parameter "Release Time 2 ID 1" 1 14 0 16384 0
+Frame "Envelope General Settings" 0
+Parameter "Sustain ID 1" 1 1 0 16384 0
+Parameter "Time Scale ID 1" 1 0 1638 163840 0
+Parameter "Delay ID 1" 1 2 0 16384 0
+Frame "Filter" 1
+Parameter "Cutoff" 3 1 -81920 81920 0
+Parameter "Resonance" 3 3 0 16384 0
+Parameter "Filter Envelope Amount" 3 2 0 163840 0
+Parameter "Input gain (dB) " 3 0 -983040 163840 0
+Parameter "Output gain (dB)" 3 5 -245760 245760 0
+Program 0 11438
+Program 0 3632
+Program 0 14745
+Program 0 541
+Program 0 309
+Program 0 927
+Program 0 2164
+Program 0 8192
+Program 0 3276
+Program 0 819
+Program 0 819
+Program 0 819
+Program 0 11468
+Program 0 16384
+Program 0 0
+Program 0 -35478
+Program 0 1290
+Program 0 56343
+Program 0 -65536
+Program 0 65610
+Program 1 11438
+Program 1 16384
+Program 1 16384
+Program 1 155
+Program 1 77
+Program 1 0
+Program 1 7496
+Program 1 8192
+Program 1 3276
+Program 1 819
+Program 1 819
+Program 1 819
+Program 1 9526
+Program 1 16384
+Program 1 0
+Program 1 -35478
+Program 1 1290
+Program 1 56343
+Program 1 -65536
+Program 1 65610
+Program 2 11438
+Program 2 16384
+Program 2 16384
+Program 2 155
+Program 2 77
+Program 2 0
+Program 2 7496
+Program 2 2859
+Program 2 16384
+Program 2 819
+Program 2 155
+Program 2 3323
+Program 2 9526
+Program 2 16384
+Program 2 0
+Program 2 -35478
+Program 2 1290
+Program 2 56343
+Program 2 -65536
+Program 2 65610
+Program 3 11438
+Program 3 16384
+Program 3 16384
+Program 3 155
+Program 3 77
+Program 3 0
+Program 3 7496
+Program 3 2859
+Program 3 16384
+Program 3 819
+Program 3 155
+Program 3 3323
+Program 3 9526
+Program 3 16384
+Program 3 0
+Program 3 -61162
+Program 3 12900
+Program 3 56343
+Program 3 -65536
+Program 3 65610
+Program 4 11438
+Program 4 3632
+Program 4 14745
+Program 4 541
+Program 4 309
+Program 4 927
+Program 4 2164
+Program 4 8192
+Program 4 3276
+Program 4 819
+Program 4 819
+Program 4 819
+Program 4 11468
+Program 4 16384
+Program 4 0
+Program 4 -61162
+Program 4 12900
+Program 4 56343
+Program 4 -65536
+Program 4 65610
+Program 5 11438
+Program 5 16384
+Program 5 16384
+Program 5 155
+Program 5 77
+Program 5 0
+Program 5 7496
+Program 5 8192
+Program 5 3276
+Program 5 819
+Program 5 819
+Program 5 819
+Program 5 9526
+Program 5 16384
+Program 5 0
+Program 5 -61162
+Program 5 12900
+Program 5 56343
+Program 5 -65536
+Program 5 65610
+Program 6 11438
+Program 6 16384
+Program 6 16384
+Program 6 155
+Program 6 77
+Program 6 0
+Program 6 12984
+Program 6 4814
+Program 6 3184
+Program 6 819
+Program 6 819
+Program 6 2329
+Program 6 7925
+Program 6 16384
+Program 6 0
+Program 6 -81920
+Program 6 0
+Program 6 163840
+Program 6 163840
+Program 6 -81189
+PresetName "Preset 00"
+PresetName "Preset 01"
+PresetName "Preset 02"
+PresetName "Preset 03"
+PresetName "Preset 04"
+PresetName "Preset 05"
+PresetName "Preset 06"

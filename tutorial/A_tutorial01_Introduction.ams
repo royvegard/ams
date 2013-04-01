@@ -1,0 +1,122 @@
+Module 7 1 1019 238 0 0
+Port 0 0 1 16
+Port 1 1 1 16
+FSlider 1 0 8192 0 0 16384 1
+FSlider 1 1 8192 0 0 16384 1
+FSlider 1 2 8192 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 318 33 0 0
+Port 0 1 3 7
+Port 1 1 3 7
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 -106718 1 -113176 0 1
+FSlider 3 2 0 0 0 16384 1
+FSlider 3 3 3887 0 0 16384 1
+FSlider 3 4 9742 0 0 16384 1
+FSlider 3 5 6298 0 0 16384 1
+FSlider 3 6 12354 0 1638 163840 1
+Module 2 4 612 130 0 0
+Port 0 0 4 3
+Port 2 0 4 10
+FSlider 4 0 7042 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 8192 0 0 16384 1
+FSlider 4 3 8192 0 0 16384 1
+FSlider 4 4 8192 0 0 16384 1
+Module 1 5 386 177 0 0
+Port 1 0 5 7
+FSlider 5 0 0 0 0 16384 1
+FSlider 5 1 1638 0 0 163840 1
+FSlider 5 2 0 0 0 163840 1
+FSlider 5 3 8192 0 1638 14745 1
+FSlider 5 4 0 0 0 16384 1
+FSlider 5 5 0 0 0 102940 1
+ISlider 5 0 3 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 0 1
+Module 16 7 184 104 0 0
+Port 0 1 7 12
+Port 1 1 7 21
+ComboBox 7 0 10 1
+Module 9 10 498 228 0 0
+Port 0 2 10 5
+Port 1 0 10 13
+Port 2 0 10 18
+FSlider 10 0 17554 0 0 163840 1
+FSlider 10 1 111687 0 0 163840 1
+FSlider 10 2 48709 0 0 163840 1
+FSlider 10 3 0 0 0 163840 1
+FSlider 10 4 13107 0 163 16384 1
+FSlider 10 5 0 0 0 16384 1
+ComboBox 10 0 6 1
+Module 14 12 14 148 0 0
+FSlider 12 0 27228 0 0 163840 1
+FSlider 12 1 6572 0 0 16384 1
+Module 15 13 278 272 0 0
+Port 0 0 13 7
+FSlider 13 0 8192 0 0 163840 1
+FSlider 13 1 8192 0 0 163840 1
+Module 6 15 715 206 0 cmt Canyon Delay
+Port 0 0 15 24
+Port 1 0 15 25
+FSlider 15 0 9273 0 163 16220 1
+FSlider 15 1 12347 0 -16384 16384 1
+FSlider 15 2 6788 0 163 16220 1
+FSlider 15 3 13661 0 -16384 16384 1
+FSlider 15 4 81920000 0 16384 81920000 1
+Module 6 16 868 232 0 cmt Freeverb (Version 3)
+Port 0 0 16 15
+Port 1 1 16 15
+FSlider 16 0 8215 0 0 16384 1
+FSlider 16 1 -75451 1 -113176 0 1
+FSlider 16 2 -9404 1 -113176 0 1
+FSlider 16 3 0 1 -113176 0 1
+FSlider 16 4 16384 0 0 16384 1
+CheckBox 16 0 0 1
+Module 15 18 381 411 0 0
+Port 0 2 18 19
+FSlider 18 0 98116 0 0 163840 1
+FSlider 18 1 70418 0 0 163840 1
+Module 14 19 240 422 0 0
+FSlider 19 0 133325 0 0 163840 1
+FSlider 19 1 16384 0 0 16384 1
+Module 16 21 71 302 0 0
+Port 0 2 21 12
+ComboBox 21 0 0 1
+Module 6 23 754 26 0 bode_shifter_cv_1432 Bode frequency shifter (CV)
+Port 0 0 23 4
+FSlider 23 0 14419592 0 0 81920000 1
+FSlider 23 1 -16384 0 -16384 16384 1
+FSlider 23 2 0 0 0 16384 1
+Module 8 24 615 368 2 0
+Port 0 0 24 4
+Port 1 0 24 23
+FSlider 24 0 16384 0 0 32768 1
+FSlider 24 1 16384 0 0 32768 1
+FSlider 24 2 4932 0 0 32768 1
+Module 8 25 747 367 2 0
+Port 0 0 25 4
+Port 1 1 25 23
+FSlider 25 0 16384 0 0 32768 1
+FSlider 25 1 16384 0 0 32768 1
+FSlider 25 2 4932 0 0 32768 1
+Comment 0 0 35 19 666 337
+#PARA# 0 0 0
+Welcome to the AlsaModularSynth tutorial. The following tutorial patches will make you familiar with the fascinating world of modular synthesis. AlsaModularSynth digitally emulates an analogue modular synthesizer. Therefore its basic components work quite the same way as the respective true analogue components. Knowledge with AlsaModularSynth is therefore useful when dealing with true analogue synthesizers and vice versa. Let's have a look at the basic modules of a modular synthesizer.  
+#ARAP#
+#PARA# 0 0 1
+ 
+#ARAP#
+#PARA# 0 0 2
+The background random music is generated in realtime. It's based on a patch by Bill Allen.  
+#ARAP#
+#PARA# 0 0 3
+ 
+#ARAP#
+#PARA# 0 0 4
+The Comment window is moved with the left mouse button pressed and resized with the middle mouse button dragged in the lower right corner of the window.  
+#ARAP#
+#PARA# 0 0 5
+ 
+#ARAP#

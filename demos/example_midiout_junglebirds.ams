@@ -1,0 +1,102 @@
+Module 7 1 652 42 0 0
+Port 0 0 1 10
+Port 1 1 1 10
+FSlider 1 0 13849 0 0 16384 1
+FSlider 1 1 16384 0 0 16384 1
+FSlider 1 2 16384 0 0 16384 1
+ComboBox 1 0 1 1
+Module 2 4 323 8 0 0
+Port 0 0 4 23
+Port 2 0 4 14
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 418 0 0 163840 1
+FSlider 4 2 1254 0 0 32768 1
+FSlider 4 3 4681 0 0 32768 1
+FSlider 4 4 8192 0 0 32768 1
+Module 6 10 462 40 0 cmt Freeverb (Version 3)
+Port 0 0 10 30
+Port 1 1 10 30
+FSlider 10 0 11536 0 0 16384 1
+FSlider 10 1 -19337 1 -113176 0 1
+FSlider 10 2 -8372 1 -113175 0 1
+FSMIDI 10 2 10 0 2
+FSlider 10 3 0 1 -113176 0 1
+FSlider 10 4 16342 0 0 16384 1
+CheckBox 10 0 0 1
+Module 1 14 548 169 0 0
+Port 1 0 14 22
+Port 2 1 14 23
+FSlider 14 0 0 0 0 16384 1
+FSlider 14 1 8192 0 1638 14745 1
+FSlider 14 2 0 0 0 16384 1
+FSlider 14 3 0 0 0 102940 1
+FSlider 14 4 26139 0 988 51689 0
+FSMIDI 14 4 13 0 0
+FSlider 14 5 1260 0 0 163840 1
+ISlider 14 0 6 1
+ISlider 14 1 1 1
+ISlider 14 2 1 1
+ComboBox 14 0 0 1
+Module 18 22 30 19 0 0
+FSlider 22 0 24511 0 0 81920 1
+FSMIDI 22 0 10 0 24
+FSlider 22 1 0 0 -8192 8192 1
+FSlider 22 2 0 0 0 81920 1
+FSlider 22 3 0 0 -8192 8192 1
+FSlider 22 4 0 0 0 81920 1
+FSlider 22 5 0 0 -8192 8192 1
+FSlider 22 6 0 0 0 81920 1
+FSlider 22 7 0 0 -8192 8192 1
+Module 22 23 104 175 0 0
+Port 0 2 23 26
+FSlider 23 0 16036 0 1638 163840 1
+FSlider 23 1 0 0 0 10191 1
+FSlider 23 2 0 0 0 16384 1
+FSlider 23 3 326 0 0 16384 1
+FSlider 23 4 8400 0 0 16384 1
+FSlider 23 5 2048 0 0 16384 1
+FSlider 23 6 0 0 0 16384 1
+FSMIDI 23 6 10 0 1
+FSMIDI 23 6 10 0 25
+FSlider 23 7 1187 0 0 16384 1
+FSlider 23 8 16087 0 0 16384 1
+FSlider 23 9 3740 0 0 16384 1
+FSlider 23 10 1276 0 0 16384 1
+FSlider 23 11 0 0 0 16384 1
+FSlider 23 12 1306 0 0 16384 1
+FSlider 23 13 0 0 0 16384 1
+FSlider 23 14 1187 0 0 16384 1
+Module 29 25 572 429 0 0
+Port 0 0 25 26
+Port 1 0 25 28
+Port 2 2 25 26
+FSlider 25 0 16384 0 0 163840 1
+FSlider 25 1 114688 0 0 163840 1
+FSlider 25 2 8192 0 0 163840 1
+ISlider 25 0 50 1
+ISlider 25 1 10 1
+ISlider 25 2 24 1
+ISlider 25 3 25 1
+ComboBox 25 0 0 1
+ComboBox 25 1 0 1
+Module 14 26 364 430 0 0
+FSlider 26 0 6687 0 0 163840 1
+FSlider 26 1 16384 0 0 16384 1
+Module 14 28 364 300 0 0
+FSlider 28 0 81920 0 0 163840 1
+FSlider 28 1 8192 0 0 16384 1
+Module 6 30 297 171 0 cmt Canyon Delay
+Port 0 0 30 4
+Port 1 0 30 4
+FSlider 30 0 6553 0 163 16220 1
+FSlider 30 1 13124 0 -16384 16384 1
+FSlider 30 2 12288 0 163 16220 1
+FSlider 30 3 13124 0 -16384 16384 1
+FSlider 30 4 81920000 0 16384 81920000 1
+Comment 0 0 15 326 317 180
+#PARA# 0 0 0
+This patch is based on the JungleBirds. It uses random voltages to automatically play the sound.
+#ARAP#
+#PARA# 0 0 1
+If you connect the readable MIDI ports of AlsaModularSynth with its writeable port (using e.g. Kaconnect), pitch and envelope will change.
+#ARAP#

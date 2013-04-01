@@ -1,0 +1,49 @@
+Module 1 1 255 12 0 0
+FSlider 1 0 0 0 0 16384 1
+FSlider 1 1 8192 0 1638 14745 1
+FSlider 1 2 0 0 0 16384 1
+FSlider 1 3 0 0 0 102940 1
+FSlider 1 4 0 0 0 163840 1
+FSlider 1 5 0 0 0 163840 1
+ISlider 1 0 3 1
+ISlider 1 1 1 1
+ISlider 1 2 1 1
+ComboBox 1 0 0 1
+Module 10 2 8 365 0 0
+FSlider 2 0 0 0 -16384 16384 1
+ISlider 2 0 60 1
+ComboBox 2 0 0 1
+Module 24 3 621 11 0 0
+Port 0 0 3 1
+Port 1 0 3 2
+FSlider 3 0 665926 0 163840 16384000 1
+FSlider 3 1 16384 0 1638 163840 1
+FSlider 3 2 0 0 -16384 16384 1
+ComboBox 3 0 1 1
+ComboBox 3 1 0 1
+Module 7 4 621 206 0 0
+FSlider 4 0 8192 0 0 16384 1
+FSlider 4 1 8192 0 0 16384 1
+FSlider 4 2 8192 0 0 16384 1
+ComboBox 4 0 1 1
+Module 24 6 621 106 0 0
+Port 0 1 6 1
+Port 1 1 6 2
+FSlider 6 0 668231 0 163840 16384000 1
+FSlider 6 1 16384 0 1638 163840 1
+FSlider 6 2 0 0 -16384 16384 1
+ComboBox 6 0 1 1
+ComboBox 6 1 0 1
+Comment 0 0 44 27 649 414
+#PARA# 0 0 0
+This patch introduces the most important components of a synthesizer, an Oscillator module VCO and a MIDI to Control Voltage module MCV. The oscillator generates basic waveforms available at its output ports on the right side. If you right-click on the Scope modules, these waves are visualized.  
+#ARAP#
+#PARA# 0 0 1
+The properties of most modules in a modular synthesizer system are controlled via control voltages applied to their input ports. This is the origin of the classical names like VCO (Voltage Controlled Oscillator) and VCA (Voltage Controlled Amplifier).  
+#ARAP#
+#PARA# 0 0 2
+The MCV module converts the MIDI note data from your keyboard into virtual control voltages. Make sure your MIDI master keyboard (or the virtual keyboard vkeybd) is connected with AlsaModularSynth (you can use e.g. Kaconnect to establish the connection). When you press down a key (e.g. a'=440 Hz) two yellow lines show up in the scope screens. Scope ID 3 indicates the gate signal, which is 1 as long as you hold down a key. Scope ID 6 shows the frequency control voltage depending on the last note you played. The Note Offset parameter in the configuration dialog of MCV (right-click on the module to open it) determines the origin of the voltage scale. Voltages below 0 are set to 0.  
+#ARAP#
+#PARA# 0 0 3
+The unit of frequency voltage is 1 Volt/Octave. This is the standard frequency convention for analogue synthesizers.  
+#ARAP#

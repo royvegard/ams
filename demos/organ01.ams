@@ -1,0 +1,48 @@
+Module 33 1 121 26 0 0
+Port 0 1 1 2
+ISlider 1 0 0 1
+ComboBox 1 0 1 1
+Module 10 2 3 14 0 0
+FSlider 2 0 0 0 -16384 16384 1
+ISlider 2 0 24 1
+ComboBox 2 0 0 1
+Module 7 3 569 208 0 0
+Port 0 0 3 6
+Port 1 1 3 6
+FSlider 3 0 8192 0 0 16384 1
+FSlider 3 1 8192 0 0 16384 1
+FSlider 3 2 8192 0 0 16384 1
+ComboBox 3 0 1 1
+Module 6 4 250 38 3 cmt Organ
+Port 0 0 4 2
+Port 2 0 4 1
+FSlider 4 0 16384 0 0 16384 1
+FSlider 4 1 0 0 0 327680000 1
+FSlider 4 2 16384 0 0 16384 1
+FSlider 4 3 16384 0 0 16384 1
+FSlider 4 4 16384 0 0 16384 1
+FSlider 4 5 16384 0 0 16384 1
+FSlider 4 6 16384 0 0 16384 1
+FSlider 4 7 16384 0 0 16384 1
+FSlider 4 8 163 0 163 16384 1
+FSlider 4 9 163 0 163 16384 1
+FSlider 4 10 16384 0 0 16384 1
+FSlider 4 11 163 0 163 16384 1
+FSlider 4 12 163 0 163 16384 1
+FSlider 4 13 163 0 163 16384 1
+FSlider 4 14 16384 0 0 16384 1
+FSlider 4 15 163 0 163 16384 1
+CheckBox 4 0 0 1
+CheckBox 4 1 1 1
+CheckBox 4 2 1 1
+CheckBox 4 3 1 1
+Module 6 6 499 31 0 g2reverb Stereo reverb
+Port 0 0 6 4
+Port 1 0 6 4
+FSlider 6 0 1446312 0 163840 2457600 1
+FSlider 6 1 47820 0 16384 327680 1
+FSlider 6 2 13115 0 0 16384 1
+FSlider 6 3 4520 0 0 16384 1
+FSlider 6 4 0 0 -1310720 0 1
+FSlider 6 5 -90394 0 -1310720 0 1
+FSlider 6 6 -116221 0 -1310720 0 1

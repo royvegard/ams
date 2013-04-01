@@ -1,0 +1,34 @@
+Module 49 1 256 93 0 0
+ColorP 0 0 1 2 250 200 50 180 180 180
+FSlider 1 0 -1005 0 -32768 32768 1
+FSlider 1 1 0 0 0 65536 1
+FSlider 1 2 -21611 0 -81920 81920 1
+FSlider 1 3 -503 0 -81920 81920 1
+FSlider 1 4 9549 0 -81920 81920 1
+FSlider 1 5 -1508 0 -81920 81920 1
+Module 3 2 100 66 0 0
+FSlider 2 0 -7868 1 -150902 75451 1
+FSlider 2 1 0 0 0 16384 1
+FSlider 2 2 0 0 0 102940 1
+Module 1 3 421 82 0 0
+ColorP 1 0 3 1 250 200 50 180 180 180
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 8192 0 1638 14745 1
+FSlider 3 2 0 0 0 16384 1
+FSlider 3 3 0 0 0 102940 1
+FSlider 3 4 0 0 0 163840 1
+FSlider 3 5 0 0 0 163840 1
+ISlider 3 0 3 1
+ISlider 3 1 1 1
+ISlider 3 2 1 1
+ComboBox 3 0 0 1
+Module 7 4 587 101 0 0
+ColorP 0 1 4 3 250 200 50 180 180 180
+FSlider 4 0 8192 0 0 16384 1
+FSlider 4 1 8192 0 0 16384 1
+FSlider 4 2 8192 0 0 16384 1
+ComboBox 4 0 0 1
+Comment 0 0 207 204 200 170
+#PARA# 0 0 0
+Hysteresis lets you "cut" a wave at any point, apply a different slope & offset to each side, and optionally a "stickiness" to stay on that side once there.
+#ARAP#

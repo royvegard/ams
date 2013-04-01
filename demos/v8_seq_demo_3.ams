@@ -1,0 +1,182 @@
+Module 7 1 875 41 0 0
+ColorP 0 0 1 6 250 200 50 180 180 180
+ColorP 1 0 1 6 250 200 50 180 180 180
+FSlider 1 0 8192 0 0 16384 1
+FSlider 1 1 8192 0 0 16384 1
+FSlider 1 2 8192 0 0 16384 1
+ComboBox 1 0 0 1
+Module 1 2 543 22 0 0
+ColorP 1 0 2 7 250 200 50 180 180 180
+FSlider 2 0 0 0 0 16384 1
+FSlider 2 1 8192 0 1638 14745 1
+FSlider 2 2 0 0 0 16384 1
+FSlider 2 3 0 0 0 102940 1
+FSlider 2 4 0 0 0 163840 1
+FSlider 2 5 0 0 0 163840 1
+ISlider 2 0 5 1
+ISlider 2 1 1 1
+ISlider 2 2 1 1
+ComboBox 2 0 0 1
+Module 46 4 206 92 0 0
+ColorP 8 4 4 12 250 200 50 180 180 180
+ColorP 9 4 4 5 250 200 50 180 180 180
+FSlider 4 0 10570 0 -32768 32768 1
+FSlider 4 1 0 0 -32768 32768 1
+FSlider 4 2 0 0 -131072 131072 1
+FSlider 4 3 0 0 -131072 131072 1
+FSlider 4 4 0 0 -32768 32768 1
+FSlider 4 5 0 0 -32768 32768 1
+FSlider 4 6 0 0 -131072 131072 1
+FSlider 4 7 0 0 -131072 131072 1
+FSlider 4 8 12684 0 -32768 32768 1
+FSlider 4 9 29068 0 -32768 32768 1
+FSlider 4 10 0 0 -131072 131072 1
+FSlider 4 11 0 0 -131072 131072 1
+FSlider 4 12 16913 0 -32768 32768 1
+FSlider 4 13 26426 0 -32768 32768 1
+FSlider 4 14 0 0 -131072 131072 1
+FSlider 4 15 0 0 -131072 131072 1
+FSlider 4 16 0 0 -32768 32768 1
+FSlider 4 17 0 0 -32768 32768 1
+FSlider 4 18 0 0 -131072 131072 1
+FSlider 4 19 0 0 -131072 131072 1
+FSlider 4 20 -7928 0 -32768 32768 1
+FSlider 4 21 28011 0 -32768 32768 1
+FSlider 4 22 0 0 -131072 131072 1
+FSlider 4 23 0 0 -131072 131072 1
+FSlider 4 24 0 0 -32768 32768 1
+FSlider 4 25 0 0 -32768 32768 1
+FSlider 4 26 0 0 -131072 131072 1
+FSlider 4 27 0 0 -131072 131072 1
+FSlider 4 28 0 0 -32768 32768 1
+FSlider 4 29 19555 0 -32768 32768 1
+FSlider 4 30 0 0 -131072 131072 1
+FSlider 4 31 0 0 -131072 131072 1
+ISlider 4 0 16 1
+ISlider 4 1 0 1
+ComboBox 4 0 0 1
+ComboBox 4 1 0 1
+ComboBox 4 2 0 1
+ComboBox 4 3 0 1
+ComboBox 4 4 1 1
+ComboBox 4 5 0 1
+ComboBox 4 6 0 1
+ComboBox 4 7 0 1
+ComboBox 4 8 0 1
+ComboBox 4 9 0 1
+ComboBox 4 10 0 1
+ComboBox 4 11 0 1
+ComboBox 4 12 0 1
+ComboBox 4 13 0 1
+ComboBox 4 14 0 1
+CheckBox 4 0 0 1
+CheckBox 4 1 0 1
+CheckBox 4 2 0 1
+CheckBox 4 3 0 1
+CheckBox 4 4 0 1
+CheckBox 4 5 0 1
+CheckBox 4 6 0 1
+CheckBox 4 7 0 1
+CheckBox 4 8 0 1
+CheckBox 4 9 0 1
+CheckBox 4 10 0 1
+CheckBox 4 11 0 1
+CheckBox 4 12 0 1
+CheckBox 4 13 0 1
+CheckBox 4 14 0 1
+CheckBox 4 15 0 1
+Module 3 5 53 296 0 0
+FSlider 5 0 -17590 1 -150902 75451 1
+FSlider 5 1 2010 0 0 16384 1
+FSlider 5 2 0 0 0 102940 1
+Module 9 6 673 233 0 0
+ColorP 0 2 6 2 250 200 50 180 180 180
+ColorP 1 0 6 7 250 200 50 180 180 180
+ColorP 4 1 6 7 250 200 50 180 180 180
+FSlider 6 0 16384 0 0 163840 1
+FSlider 6 1 81920 0 0 163840 1
+FSlider 6 2 0 0 0 163840 1
+FSlider 6 3 0 0 0 163840 1
+FSlider 6 4 8821 0 163 16384 1
+FSlider 6 5 5428 0 0 16384 1
+ComboBox 6 0 0 1
+Module 46 7 365 92 0 0
+ColorP 0 0 7 4 250 200 50 180 180 180
+ColorP 1 1 7 4 250 200 50 180 180 180
+ColorP 2 2 7 4 250 200 50 180 180 180
+ColorP 3 3 7 4 250 200 50 180 180 180
+ColorP 4 4 7 4 250 200 50 180 180 180
+ColorP 5 5 7 4 250 200 50 180 180 180
+FSlider 7 0 0 0 -32768 32768 1
+FSlider 7 1 0 0 -32768 32768 1
+FSlider 7 2 0 0 -131072 131072 1
+FSlider 7 3 0 0 -131072 131072 1
+FSlider 7 4 -6342 0 -32768 32768 1
+FSlider 7 5 0 0 -32768 32768 1
+FSlider 7 6 0 0 -131072 131072 1
+FSlider 7 7 0 0 -131072 131072 1
+FSlider 7 8 -12684 0 -32768 32768 1
+FSlider 7 9 0 0 -32768 32768 1
+FSlider 7 10 0 0 -131072 131072 1
+FSlider 7 11 0 0 -131072 131072 1
+FSlider 7 12 -17441 0 -32768 32768 1
+FSlider 7 13 8456 0 -32768 32768 1
+FSlider 7 14 0 0 -131072 131072 1
+FSlider 7 15 0 0 -131072 131072 1
+FSlider 7 16 -24312 0 -32768 32768 1
+FSlider 7 17 9513 0 -32768 32768 1
+FSlider 7 18 0 0 -131072 131072 1
+FSlider 7 19 0 0 -131072 131072 1
+FSlider 7 20 -8456 0 -32768 32768 1
+FSlider 7 21 6871 0 -32768 32768 1
+FSlider 7 22 0 0 -131072 131072 1
+FSlider 7 23 0 0 -131072 131072 1
+FSlider 7 24 529 0 -32768 32768 1
+FSlider 7 25 20612 0 -32768 32768 1
+FSlider 7 26 0 0 -131072 131072 1
+FSlider 7 27 0 0 -131072 131072 1
+FSlider 7 28 13213 0 -32768 32768 1
+FSlider 7 29 24840 0 -32768 32768 1
+FSlider 7 30 0 0 -131072 131072 1
+FSlider 7 31 0 0 -131072 131072 1
+ISlider 7 0 16 1
+ISlider 7 1 8 1
+ComboBox 7 0 1 1
+ComboBox 7 1 0 1
+ComboBox 7 2 0 1
+ComboBox 7 3 0 1
+ComboBox 7 4 1 1
+ComboBox 7 5 0 1
+ComboBox 7 6 0 1
+ComboBox 7 7 0 1
+ComboBox 7 8 0 1
+ComboBox 7 9 0 1
+ComboBox 7 10 0 1
+ComboBox 7 11 0 1
+ComboBox 7 12 0 1
+ComboBox 7 13 0 1
+ComboBox 7 14 0 1
+CheckBox 7 0 0 1
+CheckBox 7 1 0 1
+CheckBox 7 2 0 1
+CheckBox 7 3 0 1
+CheckBox 7 4 0 1
+CheckBox 7 5 0 1
+CheckBox 7 6 0 1
+CheckBox 7 7 0 1
+CheckBox 7 8 0 1
+CheckBox 7 9 0 1
+CheckBox 7 10 0 1
+CheckBox 7 11 0 1
+CheckBox 7 12 0 1
+CheckBox 7 13 0 1
+CheckBox 7 14 0 1
+CheckBox 7 15 0 1
+Module 3 12 50 46 0 0
+FSlider 12 0 26848 1 -150902 75451 1
+FSlider 12 1 0 0 0 16384 1
+FSlider 12 2 0 0 0 102940 1
+Comment 0 0 464 291 200 170
+#PARA# 0 0 0
+Like demo 2, but step forward with one LFO and  back with the other.  The first seq keeps track of the state number, the rest just follow.
+#ARAP#

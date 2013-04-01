@@ -1,0 +1,110 @@
+Module 7 1 979 59 0 0
+Port 0 0 1 16
+Port 1 1 1 16
+FSlider 1 0 11783 0 0 16384 1
+FSlider 1 1 8192 0 0 16384 1
+FSlider 1 2 8192 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 271 14 0 0
+Port 0 1 3 7
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 -101960 1 -113176 0 1
+FSlider 3 2 0 0 0 16384 1
+FSlider 3 3 4674 0 0 16384 1
+FSlider 3 4 11464 0 0 16384 1
+FSlider 3 5 5757 0 0 16384 1
+FSlider 3 6 16738 0 1638 163840 1
+Module 2 4 445 14 0 0
+Port 0 0 4 3
+Port 2 0 4 10
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 8192 0 0 16384 1
+FSlider 4 3 8192 0 0 16384 1
+FSlider 4 4 8192 0 0 16384 1
+Module 1 5 386 177 0 0
+Port 1 0 5 7
+FSlider 5 0 0 0 0 16384 1
+FSlider 5 1 0 0 0 163840 1
+FSlider 5 2 0 0 0 163840 1
+FSlider 5 3 8192 0 1638 14745 1
+FSlider 5 4 0 0 0 16384 1
+FSlider 5 5 0 0 0 102940 1
+ISlider 5 0 3 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 0 1
+Module 16 7 152 127 0 0
+Port 0 2 7 12
+Port 2 1 7 22
+ComboBox 7 0 5 1
+Module 9 10 564 175 0 0
+Port 0 2 10 5
+Port 1 0 10 13
+Port 2 0 10 18
+FSlider 10 0 43297 0 0 163840 1
+FSlider 10 1 111687 0 0 163840 1
+FSlider 10 2 48709 0 0 163840 1
+FSlider 10 3 0 0 0 163840 1
+FSlider 10 4 13107 0 163 16384 1
+FSlider 10 5 0 0 0 16384 1
+ComboBox 10 0 6 1
+Module 14 12 11 67 0 0
+FSlider 12 0 27228 0 0 163840 1
+FSlider 12 1 6572 0 0 16384 1
+Module 15 13 260 267 0 0
+Port 0 0 13 7
+FSlider 13 0 8192 0 0 163840 1
+FSlider 13 1 8192 0 0 163840 1
+Module 6 15 576 61 0 cmt Canyon Delay
+Port 0 0 15 4
+Port 1 0 15 4
+FSlider 15 0 9273 0 163 16220 1
+FSlider 15 1 12347 0 -16384 16384 1
+FSlider 15 2 6788 0 163 16220 1
+FSlider 15 3 13661 0 -16384 16384 1
+FSlider 15 4 81920000 0 16384 81920000 1
+Module 6 16 779 62 0 cmt Freeverb (Version 3)
+Port 0 0 16 15
+Port 1 1 16 15
+FSlider 16 0 8215 0 0 16384 1
+FSlider 16 1 -83988 1 -113176 0 1
+FSlider 16 2 -6486 1 -113176 0 1
+FSlider 16 3 0 1 -113176 0 1
+FSlider 16 4 16384 0 0 16384 1
+CheckBox 16 0 0 1
+Module 15 18 381 411 0 0
+Port 0 2 18 19
+FSlider 18 0 61968 0 0 163840 1
+FSlider 18 1 48354 0 0 163840 1
+Module 14 19 188 358 0 0
+FSlider 19 0 91074 0 0 163840 1
+FSlider 19 1 16384 0 0 16384 1
+Module 12 22 19 200 8 0
+ISlider 22 0 0 1
+ISlider 22 1 3 1
+ISlider 22 2 6 1
+ISlider 22 3 63 1
+ISlider 22 4 3 1
+ISlider 22 5 63 1
+ISlider 22 6 0 1
+ISlider 22 7 63 1
+ISlider 22 8 3 1
+ISlider 22 9 63 1
+ISlider 22 10 6 1
+ISlider 22 11 63 1
+ISlider 22 12 3 1
+ISlider 22 13 63 1
+ISlider 22 14 6 1
+ISlider 22 15 63 1
+ISlider 22 16 9 1
+ISlider 22 17 63 1
+ComboBox 22 0 1 1
+CheckBox 22 0 0 1
+CheckBox 22 1 0 1
+CheckBox 22 2 0 1
+CheckBox 22 3 0 1
+CheckBox 22 4 0 1
+CheckBox 22 5 0 1
+CheckBox 22 6 0 1
+CheckBox 22 7 0 1

@@ -1,0 +1,133 @@
+.\" Copyright (c) 2003 Dave Phillips
+.\" Copyright (c) 2009 Guido Scholz
+.\"
+.\" This is free documentation; you can redistribute it and/or
+.\" modify it under the terms of the GNU General Public License as
+.\" published by the Free Software Foundation; either version 2 of
+.\" the License, or (at your option) any later version.
+.\"
+.\" The GNU General Public License's references to "object code"
+.\" and "executables" are to be interpreted as the output of any
+.\" document formatting or typesetting system, including
+.\" intermediate and printed output.
+.\"
+.\" This manual is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public
+.\" License along with this manual; if not, write to the Free
+.\" Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139,
+.\" USA.
+.\"
+.TH AlsaModularSynth 1 "May 2009"
+.SH NAME
+ams \- A modular patching software synthesizer
+.SH SYNOPSIS
+.BI "ams [" OPTIONS "] [" file "]"
+.SH DESCRIPTION
+The
+.B AlsaModularSynth
+(AMS) is a software synthesizer designed after the great analog modular
+synths of the 1960s. It employs virtual control voltages (VC) for each
+ module's parameter control, using the the 
+.B Moog
+synthesizer's 1V/oct logarithmic control scale for its oscillator and
+filter functions.
+
+Following the modular synth model
+.B AMS
+supplies the user with a variety of sound-producing and sound-processing
+software modules such as digital oscillators, filters, amplifiers, and
+DSP effects. These modules are linked together (patched) to create
+complex audio synthesis networks. These network patches can be played in
+realtime via MIDI or internal control structures, and they may be saved
+and reloaded at will.  
+.SH OPTIONS
+Runtime options for
+.B AMS
+are shown here with their default values in brackets.
+
+.TP 10
+.B --jack
+Force JACK I/O
+
+.TP 10
+.BI "--in " <num>
+Number of JACK input ports
+
+.TP 10
+.BI "--out " <num>
+Number of JACK output ports
+
+.TP 10
+.BI "--poly " <num>
+Polyphony [1]
+
+.TP 10
+.BI "--periodsize " <frames>
+Period size [1024]
+
+.TP 10
+.B --alsa
+Force ALSA I/O
+
+.TP 10
+.BI "--frag " <num>
+Number of fragments [2]
+
+.TP 10
+.BI "--rate " <samples/s>
+Sample rate [44100]
+
+.TP 10
+.BI "--edge " <0...10>
+VCO edge [1.0]
+
+.TP 10
+.BI "--soundcard " <plug>
+Soundcard [plughw:0,0]
+
+.TP 10
+.BI "--preset " <file>
+Preset file
+
+.TP 10
+.BI "--presetpath " <path>
+Preset path
+
+.TP 10
+.B --nogui                      
+Start without GUI
+
+.TP 10
+.BI "--name " <name>
+ALSASEQ/JACK clientname, windowtitle
+
+.SH FILES
+Numerous example and tutorial patches can be found in
+.I /usr/share/ams
+or
+.I /usr/local/share/ams.
+
+Tutorial documentation is available at
+.I http://alsamodular.sourceforge.net/alsamodularsynth_doc.html.
+
+.SH BUGS
+Please send bug reports or any other feedback to the developer mailing
+list <alsamodular-devel@lists.sourceforge.net>
+
+.SH AUTHORS
+.B AMS
+was written by Dr. Matthias Nagorni, Fons Adriaensen, Karsten Wiese,
+Malte Steiner and Guido Scholz.
+
+.SH COPYRIGHT
+Copyright and license information for
+.B AMS:
+
+.B AlsaModularSynth
+by Matthias Nagorni (c) 2002-2003 SuSE AG Nuremberg.
+Licensed under the
+.B GNU General Public License V2.

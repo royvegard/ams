@@ -1,0 +1,69 @@
+Module 7 1 634 76 0 0
+Port 0 0 1 4
+Port 1 0 1 4
+FSlider 1 0 8192 0 0 16384 1
+FSlider 1 1 16384 0 0 16384 1
+FSlider 1 2 16384 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 188 48 0 0
+Port 0 0 3 9
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 935 0 0 16384 1
+FSlider 3 2 98 0 0 16384 1
+FSlider 3 3 640 0 0 16384 1
+FSlider 3 4 7479 0 0 16384 1
+FSlider 3 5 819 0 0 16384 1
+FSlider 3 6 16384 0 1638 163840 1
+Module 2 4 516 40 0 0
+Port 0 0 4 3
+Port 2 0 4 6
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 8192 0 0 32768 1
+FSlider 4 3 8192 0 0 32768 1
+FSlider 4 4 26759 0 0 32768 1
+Module 1 5 257 225 0 0
+Port 1 1 5 9
+Port 2 0 5 7
+Port 4 1 5 7
+FSlider 5 0 0 0 0 16384 1
+FSlider 5 1 -37725 1 -113176 37725 1
+FSlider 5 2 0 0 0 163840 1
+FSlider 5 3 8192 0 163 16220 1
+FSlider 5 4 1574 0 0 163840 1
+FSlider 5 5 0 0 0 163840 1
+ISlider 5 0 1 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 0 1
+Module 9 6 401 152 0 0
+Port 0 3 6 5
+Port 1 1 6 9
+Port 2 1 6 3
+FSlider 6 0 7380 0 0 163840 1
+FSlider 6 1 59626 0 37393 91693 1
+FSMIDI 6 1 10 0 1
+FSlider 6 2 23617 0 0 163840 1
+FSlider 6 3 0 0 0 163840 1
+FSlider 6 4 15117 0 163 16384 1
+FSlider 6 5 0 0 0 16384 1
+ComboBox 6 0 6 1
+Module 3 7 128 251 0 0
+Port 0 0 7 9
+FSlider 7 0 30915 1 -75451 75451 1
+FSlider 7 1 0 0 0 102940 1
+Module 10 9 6 23 0 0
+FSlider 9 0 129 0 -16384 16384 1
+FSMIDI 9 0 13 0 0
+ISlider 9 0 24 1
+ComboBox 9 0 0 1
+Comment 0 0 386 318 306 182
+#PARA# 0 0 0
+Here, both the pulse width and the frequency of the VCO wave are modulated by a LFO. The inverse envelope modifies the cutoff frequency of the VCF. You can reduce (or stop) this effect with the "Exp. FM Gain" slider of the VCF.
+#ARAP#
+#PARA# 0 0 1
+
+#ARAP#
+#PARA# 0 0 2
+Try out the pitchbender and modulation wheels!
+#ARAP#

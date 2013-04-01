@@ -1,0 +1,103 @@
+Module 7 1 603 162 0 0
+Port 0 0 1 12
+Port 1 1 1 12
+FSlider 1 0 8192 0 0 16384 1
+FSlider 1 1 8192 0 0 16384 1
+FSlider 1 2 8192 0 0 16384 1
+ComboBox 1 0 1 1
+Module 10 4 5 57 0 0
+FSlider 4 0 0 0 -16384 16384 1
+ISlider 4 0 12 1
+ComboBox 4 0 0 1
+Module 3 5 5 180 0 0
+FSlider 5 0 118848 0 0 1638400 1
+FSlider 5 1 0 0 0 102940 1
+Module 11 7 158 37 0 0
+Port 0 0 7 4
+FSlider 7 0 0 0 0 16384 1
+FSlider 7 1 386 0 0 16384 1
+FSlider 7 2 327 0 0 16384 1
+FSlider 7 3 1638 0 0 16384 1
+FSlider 7 4 16384 0 0 16384 1
+FSlider 7 5 386 0 0 16384 1
+FSlider 7 6 16384 0 1638 163840 1
+Module 2 8 312 114 0 0
+Port 0 0 8 7
+Port 2 0 8 15
+FSlider 8 0 0 0 0 163840 1
+FSlider 8 1 0 0 0 163840 1
+FSlider 8 2 16384 0 0 32768 1
+FSlider 8 3 16384 0 0 32768 1
+FSlider 8 4 16384 0 0 32768 1
+Module 6 12 423 161 0 cmt Freeverb (Version 3)
+Port 0 0 12 8
+Port 1 0 12 8
+FSlider 12 0 10357 0 0 16384 1
+FSlider 12 1 -102621 1 -113176 0 1
+FSlider 12 2 -48965 1 -113176 0 1
+FSlider 12 3 -48965 1 -113176 0 1
+FSlider 12 4 16384 0 0 16384 1
+CheckBox 12 0 0 1
+Module 20 15 159 182 8 0
+Port 0 1 15 4
+Port 1 0 15 5
+FSlider 15 0 0 0 0 16384 1
+FSlider 15 1 392 0 0 1046 1
+FSlider 15 2 0 0 0 163840 1
+FSlider 15 3 16384 0 0 16384 1
+FSlider 15 4 6562 0 0 16384 1
+FSlider 15 5 16384 0 0 16384 1
+FSlider 15 6 4932 0 0 16384 1
+FSlider 15 7 14754 0 0 16384 1
+FSlider 15 8 3303 0 0 16384 1
+FSlider 15 9 13124 0 0 16384 1
+FSlider 15 10 1673 0 0 16384 1
+FSlider 15 11 0 0 0 102940 1
+FSlider 15 12 0 0 0 16384 1
+FSlider 15 13 0 0 0 102940 1
+FSlider 15 14 0 0 0 16384 1
+FSlider 15 15 0 0 0 102940 1
+FSlider 15 16 0 0 0 16384 1
+FSlider 15 17 0 0 0 102940 1
+FSlider 15 18 0 0 0 16384 1
+FSlider 15 19 0 0 0 102940 1
+FSlider 15 20 0 0 0 16384 1
+FSlider 15 21 0 0 0 102940 1
+FSlider 15 22 0 0 0 16384 1
+FSlider 15 23 0 0 0 102940 1
+FSlider 15 24 0 0 0 16384 1
+FSlider 15 25 0 0 0 102940 1
+FSlider 15 26 0 0 0 102940 1
+ISlider 15 0 0 1
+ISlider 15 1 0 1
+ISlider 15 2 1 1
+ISlider 15 3 1 1
+ISlider 15 4 0 1
+ISlider 15 5 2 1
+ISlider 15 6 1 1
+ISlider 15 7 0 1
+ISlider 15 8 3 1
+ISlider 15 9 1 1
+ISlider 15 10 0 1
+ISlider 15 11 4 1
+ISlider 15 12 1 1
+ISlider 15 13 0 1
+ISlider 15 14 5 1
+ISlider 15 15 1 1
+ISlider 15 16 0 1
+ISlider 15 17 6 1
+ISlider 15 18 1 1
+ISlider 15 19 0 1
+ISlider 15 20 7 1
+ISlider 15 21 1 1
+ISlider 15 22 0 1
+ISlider 15 23 8 1
+ISlider 15 24 1 1
+ComboBox 15 0 0 1
+ComboBox 15 1 0 1
+ComboBox 15 2 0 1
+ComboBox 15 3 0 1
+ComboBox 15 4 0 1
+ComboBox 15 5 0 1
+ComboBox 15 6 0 1
+ComboBox 15 7 0 1

@@ -1,0 +1,149 @@
+Module 7 1 1019 238 0 0
+Port 0 0 1 16
+Port 1 1 1 16
+FSlider 1 0 8192 0 0 16384 1
+FSlider 1 1 8192 0 0 16384 1
+FSlider 1 2 8192 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 318 33 0 0
+Port 0 1 3 7
+Port 1 1 3 7
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 -106718 1 -113176 0 1
+FSlider 3 2 0 0 0 16384 1
+FSlider 3 3 3887 0 0 16384 1
+FSlider 3 4 9742 0 0 16384 1
+FSlider 3 5 6298 0 0 16384 1
+FSlider 3 6 12354 0 1638 163840 1
+Module 2 4 612 130 0 0
+Port 0 0 4 3
+Port 2 0 4 33
+Port 3 0 4 29
+FSlider 4 0 7042 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 9822 0 0 16384 1
+FSlider 4 3 4953 0 0 16384 1
+FSlider 4 4 8192 0 0 16384 1
+Module 1 5 386 177 0 0
+Port 1 0 5 7
+FSlider 5 0 0 0 0 16384 1
+FSlider 5 1 1638 0 0 163840 1
+FSlider 5 2 0 0 0 163840 1
+FSlider 5 3 8192 0 1638 14745 1
+FSlider 5 4 0 0 0 16384 1
+FSlider 5 5 0 0 0 102940 1
+ISlider 5 0 3 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 0 1
+Module 16 7 184 104 0 0
+Port 0 1 7 12
+Port 1 1 7 21
+ComboBox 7 0 10 1
+Module 14 12 14 148 0 0
+FSlider 12 0 27228 0 0 163840 1
+FSlider 12 1 6572 0 0 16384 1
+Module 15 13 278 272 0 0
+Port 0 0 13 7
+FSlider 13 0 8192 0 0 163840 1
+FSlider 13 1 8192 0 0 163840 1
+Module 6 15 715 206 0 cmt Canyon Delay
+Port 0 0 15 4
+Port 1 0 15 4
+FSlider 15 0 9273 0 163 16220 1
+FSlider 15 1 12347 0 -16384 16384 1
+FSlider 15 2 6788 0 163 16220 1
+FSlider 15 3 13661 0 -16384 16384 1
+FSlider 15 4 81920000 0 16384 81920000 1
+Module 6 16 842 51 0 cmt Freeverb (Version 3)
+Port 0 0 16 15
+Port 1 1 16 15
+FSlider 16 0 8215 0 0 16384 1
+FSlider 16 1 -83988 1 -113176 0 1
+FSlider 16 2 -9404 1 -113176 0 1
+FSlider 16 3 0 1 -113176 0 1
+FSlider 16 4 16384 0 0 16384 1
+CheckBox 16 0 0 1
+Module 15 18 381 411 0 0
+Port 0 2 18 19
+FSlider 18 0 98116 0 0 163840 1
+FSlider 18 1 70418 0 0 163840 1
+Module 14 19 238 408 0 0
+FSlider 19 0 133325 0 0 163840 1
+FSlider 19 1 16384 0 0 16384 1
+Module 16 21 71 277 0 0
+Port 0 2 21 12
+ComboBox 21 0 0 1
+Module 24 23 217 4 0 0
+Port 0 0 23 4
+FSlider 23 0 418607 0 163840 16384000 1
+FSlider 23 1 49195 0 1638 163840 1
+FSlider 23 2 -686 0 -16384 16384 1
+ComboBox 23 0 1 1
+ComboBox 23 1 0 1
+Module 25 24 113 4 0 0
+Port 0 0 24 4
+FSlider 24 0 16384 0 1638 163840 1
+FSlider 24 1 0 0 0 327680000 1
+FSlider 24 2 163840000 0 0 327680000 1
+ComboBox 24 0 1 1
+ComboBox 24 1 0 1
+ComboBox 24 2 0 1
+ComboBox 24 3 1 1
+ComboBox 24 4 2 1
+ComboBox 24 5 4 1
+CheckBox 24 0 1 1
+Module 25 25 9 4 0 0
+Port 0 0 25 4
+FSlider 25 0 16384 0 1638 163840 1
+FSlider 25 1 0 0 0 327680000 1
+FSlider 25 2 163840000 0 0 327680000 1
+ComboBox 25 0 0 1
+ComboBox 25 1 0 1
+ComboBox 25 2 0 1
+ComboBox 25 3 1 1
+ComboBox 25 4 2 1
+ComboBox 25 5 4 1
+CheckBox 25 0 1 1
+Module 29 27 491 33 0 0
+Port 0 1 27 12
+Port 2 1 27 7
+FSlider 27 0 6434 0 0 163840 1
+FSlider 27 1 16384 0 0 163840 1
+FSlider 27 2 8192 0 0 163840 1
+ISlider 27 0 41 1
+ISlider 27 1 0 1
+ISlider 27 2 24 1
+ISlider 27 3 25 1
+ComboBox 27 0 9 1
+ComboBox 27 1 2 1
+Module 6 29 485 283 0 mvclpf24 Mvclpf-3
+Port 0 2 29 5
+Port 1 0 29 13
+Port 2 0 29 18
+Port 3 0 29 31
+FSlider 29 0 -2117 0 -983040 163840 1
+FSlider 29 1 38314 0 -81920 81920 1
+FSlider 29 2 77051 0 0 163840 1
+FSlider 29 3 6731 0 0 16384 1
+FSlider 29 4 11939 0 0 16384 1
+FSlider 29 5 245760 0 -245760 245760 1
+Module 14 30 33 436 0 0
+FSlider 30 0 112614 0 0 163840 1
+FSlider 30 1 16384 0 0 16384 1
+Module 15 31 177 319 0 0
+Port 0 2 31 30
+FSlider 31 0 18204 0 0 163840 1
+FSlider 31 1 55460 0 0 163840 1
+Module 6 33 722 355 0 cs_phaser Phaser1
+Port 0 2 33 5
+Port 1 0 33 18
+Port 2 0 33 31
+Port 3 1 33 15
+FSlider 33 0 -140979 0 -655360 163840 1
+FSlider 33 1 15876 0 -81920 81920 1
+FSlider 33 2 74511 0 0 163840 1
+FSlider 33 3 52497 0 0 163840 1
+FSlider 33 4 14945 0 -16384 16384 1
+FSlider 33 5 9526 0 -16384 16384 1
+LSlider 33 0 30 1

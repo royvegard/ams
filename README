@@ -1,0 +1,50 @@
+
+          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+          !!!               Warning                     !!!
+          !!! This program may generate electronic      !!!
+          !!! sounds which might damage your speakers.  !!!
+          !!! Use the software at your own risk.        !!!
+          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+The online manual for AlsaModularSynth is found at
+http://alsamodular.sourceforge.net/alsamodularsynth_doc.html
+
+The files in the instruments folder are patches that have a Parameter View
+GUI in addition to the parameter dialogs of the modules. Each instrument has 
+several presets that can be selected via MIDI program change or in the
+Parameter View dialog.
+
+The files in the tutorial folder feature a complete tutorial on modular
+synthesis with many commented examples which you can use for own
+experiments.
+
+The files in the demos folder demonstrate certain modules or special sounds.
+Note that some of these patches are monophonic, i.e. work only with poly 1.
+
+AlsaModularSynth 1.8.5 features a new module Analogue Driver. This emulates
+the oscillator drift effects present in analogue electronic circuits and also 
+includes a voice detune. The detune and drift amplitudes are always displayed
+in the configuration dialog of the module. Note that these values are
+normalized to 1.0. The actual detune/drift depends on the Amplitude parameter  
+in the Parameter tab. The amplitude is measured in Volt, the maximum of
+0.084 is a tiny bit more than a semitone. The rate is measured in Hz. 
+The drift/detune process is a modified random walk where random coefficients
+are generated at the detune/drift rate. These coefficients are multiplied by
+the Modulation parameter (divided by the sample rate) and then added to the
+current detune/drift amplitude (for each sample). These detune/drift 
+amplitudes are added to the input CV and the sum is then passed to the 
+outputs. The Autotune button will reset detune/drift amplitudes.
+
+
+If you start with a fresh cvs checkout, please first apply
+
+  autoreconf -i
+
+to get a proper configure script. For more instructions about compiling
+and installing this application please refer to the INSTALL file.
+
+
+Have a lot of fun !
+
+Please send bug reports or any other feedback to 
+Matthias Nagorni <mana@suse.de>

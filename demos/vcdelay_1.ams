@@ -1,0 +1,30 @@
+Module 50 1 317 115 0 0
+ColorP 0 0 1 2 250 200 50 180 180 180
+ColorP 1 0 1 4 250 200 50 180 180 180
+FSlider 1 0 163840 0 0 163840 1
+FSlider 1 1 -65730 1 -150902 0 1
+Module 17 2 100 66 0 0
+FSlider 2 0 8192 0 0 16384 1
+FSlider 2 1 8192 0 0 16384 1
+FSlider 2 2 8192 0 0 16384 1
+Module 7 3 525 77 0 0
+ColorP 0 0 3 1 250 200 50 180 180 180
+ColorP 1 0 3 1 250 200 50 180 180 180
+FSlider 3 0 8192 0 0 16384 1
+FSlider 3 1 8192 0 0 16384 1
+FSlider 3 2 8192 0 0 16384 1
+ComboBox 3 0 0 1
+Module 3 4 105 208 0 0
+FSlider 4 0 26369 1 -150902 75451 1
+FSlider 4 1 0 0 0 16384 1
+FSlider 4 2 0 0 0 102940 1
+Comment 0 0 327 244 200 170
+#PARA# 0 0 0
+Delay time is modulated by the LFO.
+#ARAP#
+#PARA# 0 0 1
+
+#ARAP#
+#PARA# 0 0 2
+Put on headphones and try to read this text without laughing.
+#ARAP#

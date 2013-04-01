@@ -1,0 +1,382 @@
+2012-10-19 Guido Scholz <guido.scholz@bayernline.de>
+	* src/mainwindow.*: Add file menu item to open demo instruments 
+	directly.
+	* src/midiwidget.*: Make visibility, position and size of midi
+	widget window persistent.
+
+2012-10-04 Guido Scholz <guido.scholz@bayernline.de>
+	* demos/vocoder_1.ams: Add demo file for new vocoder module.
+	* src/module.*, src/modularsynth.*: Make visibility, position 
+	and size of module config dialog persistent.
+
+2012-09-30 Guido Scholz <guido.scholz@bayernline.de>
+	* src/m_ladspa.cpp, src/mainwindow.cpp, src/modularsynth.*,
+	src/port.*, src/prefwidget.*, src/synthdata.*: Make port font
+	color editable.
+
+2012-09-30 Guido Scholz <guido.scholz@bayernline.de>
+	* src/midiwidget.*, src/modularsynth.*: Make control center MIDI
+	settings persistent.
+	* src/m_scmcv.cpp: Fix memory leak caused by not deleted file
+	dialog.
+
+2012-02-21 Guido Scholz <guido.scholz@bayernline.de>
+	* src/modularsynth.cpp, src/port.*: Add context menu to
+	disconnect module output ports.
+
+2012-02-20 Guido Scholz <guido.scholz@bayernline.de>
+	* src/main.cpp, src/msoptions.h: Rename commandline options
+	"-d" (ALSA device), "-p" (Period size) and "-n" (Number of
+	fragments).
+
+2012-02-19 Guido Scholz <guido.scholz@bayernline.de>
+	* src/aboutdialog.*, src/mainwindow.cpp, src/modularsynth.*: Add
+	new about dialog.
+	* src/modularsynth.cpp, src/module.*, src/port.*: Fix update of
+	jack and cable color if modified by context menu.
+
+2012-02-18 Guido Scholz <guido.scholz@bayernline.de>
+	* demos/analog_memory_1.ams, demos/bitgrinder_1.ams,
+	demos/hysteresis_1.ams, demos/vcdelay_1.ams: Add demo files for
+	new modules, provided by Bill Yerazunis.
+	* src/mainwindow.cpp: Restructure module menu.
+
+2012-02-17 Guido Scholz <guido.scholz@bayernline.de>
+	* src/modularsynth.cpp: Cleanup string constant handling.
+
+2012-02-16 Guido Scholz <guido.scholz@bayernline.de>
+	* src/midicontrollable.*, src/midiwidget.cpp: Use name with or
+	 without keyboard shortcut control character for MIDI controller.
+	* src/midicheckbox.cpp: Use self contained text for labeling.
+
+2012-02-14 Guido Scholz <guido.scholz@bayernline.de>
+	* src/module.h, src/m_vocoder.h, src/m_vocoder.cpp,
+	src/modularsynth.*: Add FFT vocoder module, provided by
+	Bill Yerazunis.
+	* src/m_noise2.*: Add pulsetrain noise type to Noise 2 module,
+	patch provided by Bill Yerazunis.
+
+2012-02-13 Guido Scholz <guido.scholz@bayernline.de>
+	* src/module.h, src/m_analogmemory.h, src/m_analogmemory.cpp,
+	src/bitgrind.h, src/m_bitgrind.cpp, src/m_hysteresis.cpp,
+	src/m_hysteresis.h, src/m_vcdelay.h, src/m_vcdelay.cpp: Add
+	analog memory, bit grinder, hysteresis and VC delay modules
+	provided by Bill Yerazunis.
+
+2012-02-12 Guido Scholz <guido.scholz@bayernline.de>
+	* src/translations/ams_fr.ts:
+	Update French translation, provided by Frank Kober.
+
+2012-02-11 Guido Scholz <guido.scholz@bayernline.de>
+	* src/main.cpp, src/synthdata.*, modularsynth.*, src/msoptions.h:
+	Add support for separate ALSA capture and playback devices.
+
+2012-02-10 Guido Scholz <guido.scholz@bayernline.de>
+	* src/mainwindow.cpp: Add new menu item to open demo patch files
+	directly.
+
+2012-02-09 Guido Scholz <guido.scholz@bayernline.de>
+	* src/module.h, src/m_v8sequencer.h, src/m_v8sequencer.cpp: Update
+	V8 Sequencer module by Bill Yerazunis.
+	* demos/v8_seq_demo_[123].ams: Add example patches for V8 Sequencer,
+	provided by Bill Yerazunis.
+
+2012-02-08 Guido Scholz <guido.scholz@bayernline.de>
+	* src/mainwindow.cpp, src/modularsynth.*, src/module.h,
+	src/m_v8sequencer.h, m_v8sequencer.cpp: Add new V8 Sequencer 
+	module by Bill Yerazunis.
+
+2012-02-07 Guido Scholz <guido.scholz@bayernline.de>
+	* src/mainwindow.cpp, src/modularsynth.*, src/prefwidget.*: Add
+	preferences option for module position grid.
+	* src/m_scmcv.cpp, src/m_sh.cpp, src/m_ringmod.cpp,src/m_mix.cpp,
+	src/m_mphlfo.cpp, src/m_mphlfo.cpp, src/m_noise.cpp,
+	src/m_noise2.cpp, src/m_quantizer.cpp, src/m_seq.cpp,
+	src/m_slew.cpp, src/m_scope.cpp, src/m_stereomix.cpp,
+	src/m_vcdoubledecay.cpp, src/m_vcenv.cpp, src/m_vco2.cpp,
+	src/m_vcorgan.cpp, src/m_vcpanning.cpp, src/m_vcswitch.cpp,
+	src/m_vquant.cpp, src/m_cvs.cpp, src/m_vca.cpp,
+	src/m_vco.cpp, src/m_vcenv2.cpp, src/m_vcf.cpp: Add
+	keyboard shortcuts for config dialog items.
+
+2012-02-04 Guido Scholz <guido.scholz@bayernline.de>
+	* src/midisliderbase.cpp, src/midicombobox.cpp,
+	src/configdialog.cpp: Enable keyboard shortcuts for GUI items.
+	* src/m_wavout.cpp, src/m_pcmout.cpp, src/m_pcmin.cpp, src/m_ad.cpp,
+	src/m_delay.cpp, src/m_amp.cpp, src/m_advenv.cpp, src/m_env,
+	m_advmcv.cpp, src/m_conv.cpp, src/m_dynamicwaves.cpp, src/m_lfo.cpp
+	src/m_function.cpp, src/m_mcv.cpp, src/m_midiout.cpp: Add
+	keyboard shortcuts for config dialog items.
+
+2012-02-03 Guido Scholz <guido.scholz@bayernline.de>
+	* src/main.cpp: Remove obsolete commandline option -l (preset file).
+	Add commandline option for program version (--version).
+	* src/mainwindow.*, src/ladspadialog.cpp, src/synthdata.cpp: Enable
+	"--verbose" commandline option to make startup more quiet.
+	* src/m_lfo.cpp: Fix frequency update of LFO, patch provided by 
+	Bill Yerazunis.
+
+2012-02-02 Guido Scholz <guido.scholz@bayernline.de>
+	* src/main.cpp: Reorganize commandline options for input and output to
+	be valid for Alsa and JACK.
+
+2012-02-01 Guido Scholz <guido.scholz@bayernline.de>
+	* configure.ac, src/synthdata.*: Add support for libzita-alsa-pcmi
+	as an alternative for libclalsadrv.
+
+2012-01-31 Guido Scholz <guido.scholz@bayernline.de>
+	* src/mainwindow.*, src/modularsynth.*, src/prefwidget.*:
+	Rewrite preferences widget to fix colorwidget memory leak and
+	use OOP style for data access. Realize choices for MIDI and editing
+	options with RadioButtons. Add options for saving window geometry
+	and hiding recently used files menu. Remove path edit lines;
+	this feature is handled automatically.
+	* src/m_lfo.cpp: Fix triggered reset of LFO saw signals; patch
+	provided by Bill Yerazunis.
+
+2012-01-30 Guido Scholz <guido.scholz@bayernline.de>
+	* src/mainwindow.cpp:
+	Fix broken Yes/No/Cancel response on program exit.
+
+2012-01-26 Guido Scholz <guido.scholz@bayernline.de>
+	* src/modularsynth.*, src/module.cpp, src/prefwidget.*:
+	Fix preferences dialog to show current color setup.
+
+2012-01-23 Guido Scholz <guido.scholz@bayernline.de>
+	* src/modularsynth.*, src/prefwidget.*, src/synthdata.*,
+	src/mainwindow.*, src/main.cpp, src/msoptions.h, src/Makefile.am:
+	Add basic support for JACK session handling.
+	* src/prefwidget.cpp: Improve widget alignment in preferences
+	dialog.
+
+2012-01-21 Guido Scholz <guido.scholz@bayernline.de>
+	* configure.ac: Add check for ladspa.h, check for dlopen in
+	libdl.
+	* src/Makefile.am: Improve handling of CXXFLAGS variables.
+	* src/modularsynth.cpp: Apply patch from Sebastien Alaiwan to
+	improve module port selection handling.
+	* src/modularsynth.*, src/prefwidget.*, src/synthdata.*,
+	src/mainwindow.cpp: Separate handling of color scheme directory
+	from patch file directoy.
+
+2011-02-15 Karsten Wiese <fzuuzf@googlemail.com>
+	* SynthData::closeJack(): jack_client_close() suffices to exit jack.
+
+2011-02-13 Karsten Wiese <fzuuzf@googlemail.com>
+	* configure.ac: check for libdl.
+	Fixes "undefined reference to symbol 'dlsym@@GLIBC_2.2.5'" on Fedora 13.
+	* src/module.cpp: set cycleReady = true; before calling generateCycle();
+	to enable looped signal paths.
+
+2010-10-25 Guido Scholz <guido.scholz@bayernline.de>
+	* src/function.*, src/canvasfunction.*: Replace std::min/max by
+	generic Qt functions qMin/qMax; this should fix armel compile
+	error (reported for debian #570848).
+	* src/synthdata.cpp: Handle JACK close functions more carefully
+	with extended error messages; fixes crash if jack handle is
+	NULL.
+
+2010-10-24 Guido Scholz <guido.scholz@bayernline.de>
+	* configure.ac, src/synthdata.cpp: Basic support for libclalsadrv
+	API version 2.0.0.
+
+2010-01-03 Karsten Wiese <fzuuzf@googlemail.com>
+	* src/m_dynamicwaves.*, src/m_vcf.*:
+	Replace 2D [MAXPOLY] arrays by PolyArr<> to ensure initialization.
+	* src/m_vcf.cpp: Initialize vcfType to let the vcf start with a defined
+	filtertype.
+	Ensure initBuf() is called before running different filtertype.
+	Prevents click on filtertype switching.
+	
+2010-01-02 Karsten Wiese <fzuuzf@googlemail.com>
+	* module.h: template <typename tn> class PolyArr;
+	Replace simple [MAXPOLY] arrays by it to ensure initialization.
+
+2010-01-01 Karsten Wiese <fzuuzf@googlemail.com>
+	* src/synthdata.cpp: Add SND_SEQ_EVENT_SENSING (42) to the list
+	of ignored MIDI event types.
+	* src/modularsynth.cpp: Add test code for ALSA MIDI event type
+	filtering. Didn't work, commented it out. Committed it nonetheless
+	so I don't try this again without knowing what I already tried.
+
+2009-12-29 Guido Scholz <guido.scholz@bayernline.de>
+	* src/mainwindow.cpp: Handler for SIGUSR1 added to save
+	currently opened patch file. This enables LADI session handling
+	on application level 1.
+
+2009-12-28 Guido Scholz <guido.scholz@bayernline.de>
+	* src/main.cpp, src/mainwindow.cpp, src/synthdata.cpp: Fixed
+	compiler warnings caused by usage of string literals without
+	format parameters in qWarning(), appears with Qt 4.5.
+	* src/mainwindow.cpp: Compiler warning about ignored write()
+	result fixed.
+	* src/m_wavout.cpp: Compiler warning about ignored getcwd()
+	result fixed.
+
+
++++ Release 2.0.1 (2009-12-26) +++
+
+2009-12-25 Karsten Wiese <fzuuzf@googlemail.com>
+	* src/m_env.cpp: Initialize M_env::e_noteOff[].
+
+2009-10-07 Guido Scholz <guido.scholz@bayernline.de>
+	* src/midiwidget.cpp: MIDI channel numbering changed from 0..15
+	to 1..16.
+
+2009-10-04 Karsten Wiese <fzuuzf@googlemail.com>
+	* src/midiwidget.cpp: Fix crash unbinding multiple controllables
+	connected to the same midi controller by using QPersistentModelIndex.
+
+2009-09-26 Karsten Wiese <fzuuzf@googlemail.com>
+	* src/midiwidget.cpp: Update comments, move one return.
+	* SynthData::getMidiControllerContext(): Tell userinterface
+	"MIDI event happened", if (midiWidget->isVisible()).
+
+2009-08-14 Guido Scholz <guido.scholz@bayernline.de>
+	* src/midiwidget.cpp: Update selection in MIDI controller view,
+	if MIDI event of an already listed controller arrives.
+
+2009-09-05 Frank Neumann <beachnase@web.de>
+	* configure.ac: Compiler optimization for arch x86_64 added.
+
+2009-08-12 Guido Scholz <guido.scholz@bayernline.de>
+	* src/modules.cpp: Compile error for Qt 4.2 fixed, caused by
+	missing QPainterPath header.
+
+
++++ Release 2.0.0 (2009-06-15) +++
+
+2009-06-12 Karsten Wiese <fzuuzf@googlemail.com>
+	* main.cpp, modularsynth.cpp, modularsynth.h, msoptions.h:
+	  -v "verbose" command line option.
+	* configure.ac: bump VERSION to "2.0.0".
+
+2009-06-09 Karsten Wiese <fzuuzf@googlemail.com>
+	* m_midiout.cpp, m_scope.cpp, m_wavout.cpp, module.cpp, synthdata.cpp:
+	  Fix crash on switching presets containing M_wavout or M_scope
+	  modules.
+	* configure.ac: bump VERSION to "2.0.0-rc2".
+
+2009-05-25 Karsten Wiese <fzuuzf@googlemail.com>
+	* MainWindow::closeEvent():
+	  Call modularSynth->clearConfig(); to fix crash when quitting.
+
+2009-05-19 Karsten Wiese <fzuuzf@googlemail.com>
+	* ModularSynth::mousePressEvent():
+	  Fix newBoxPos and popup position. Style.
+
+2009-05-18 Karsten Wiese <fzuuzf@googlemail.com>
+	* M_pcmout: Fix noise after disconnection.
+	* Module deletion fixed to allow midibound activity also for
+	  unconnected modules. 
+	* M_type_pcmout deletion fixed to avoid crash.
+
+2009-05-17 Karsten Wiese <fzuuzf@googlemail.com>
+	* cmdline options: reenable -j and -a.
+	* legato mode: Make "All notes off" also clear the notelist.
+	* ISMIDI is the correct tag for an intMidiSlider,
+	  fix incorrectly saved as FSMIDI midibindings.
+
+2009-05-16 Guido Scholz <guido.scholz@bayernline.de>
+	* man/ams.1: New command line options added.
+	* configure.ac: bump VERSION down to "2.0.0-rc1".
+
+2009-05-16 Karsten Wiese <fzuuzf@googlemail.com>
+	* call jack_client_open() instead of deprecated jack_client_new().
+	* legato in monophonic mode by Atte Andre Jensen.
+	* Doing console io from rt thread can cause harm to ears and speakers.
+	  Defer unsupported midi messages warnings to userinterface.
+	* Fix 2 bugs in ModularSynth that caused accessviolation on exit
+	  and wrong box placement in Parameter View.
+	* Call guiWidget->close(), prefWidget->close() and  midiWidget->close()
+	  from ModularSynth::dtor to let process finish on Mainwindow closing
+	  also if any of those widgets is shown.
+	* Reenable polyphonic mode. Fix by Atte Andre Jensen.
+	* MainWindow::updateWindowTitle(): Use synthdata->name instead of
+	  APPNAME to match MIDI and Jack names.
+	* Rework commandline options. Started by Atte Andre Jensen. Tweaked to
+	  resemble Fons Adriaensen's programs.
+	* configure.ac: bump VERSION to "2.0.1-rc1".
+	
+2009-03-02 Karsten Wiese <fzuuzf@googlemail.com>
+	* midiwidget.*: Fix crash if second controller is about to show
+	after 1st controller is bound to controllable.
+	* modularsynth.cpp: Cosmetics showing style I'd like other developers
+	to follow.....
+
+2009-02-24 Karsten Wiese <fzuuzf@googlemail.com>
+	* prefwidget.*, modularsynth.*: Boxes can be moved past the
+	topleft canvas border. Behaviour selectable via new tab in
+	prefwidget.
+	* modularsynth.*: Fix QObject's complaint about deleting while
+	in event-handler by using deleteLater().
+
+2009-02-21 Guido Scholz <guido.scholz@bayernline.de>
+	* guiwidget.*, modularsynth.cpp: Saving of parameter view
+	settings reorganized, reading of float slider parameters
+	enabled.
+	* guiwidget.*: Inherit parameter view widget from QDialog to
+	create a proper window decoration.
+	* configdialog.*: Inherit module config dialog from QDialog to
+	create a proper window decoration.
+	* modularsynth.cpp: Append suffix to color scheme files if not
+	given by user.
+
+2009-02-18 Guido Scholz <guido.scholz@bayernline.de>
+	* colorwidget.*, prefwidget.cpp: Color widget class moved to
+	separate file, missing Q_OBJECT macro added.
+	* prefwidget.*, modularsynth.*: Unused code removed.
+
+2008-11-09 Frank Kober <goemusic@yahoo.fr>
+	* ams_fr.ts: French translation added.
+
+2008-09-02 Guido Scholz <guido.scholz@bayernline.de>
+	* configure.ac: Removed obsolete assignments to LIBS variable.
+	* port.h, module.cpp: Port direction is private now.
+
+2008-08-30 Guido Scholz <guido.scholz@bayernline.de>
+	* modularsynth.cpp: Prevent double inport connection. Beep
+	instead of error message if user tries wrong connection. Fix
+	resorting of recently opened files list.
+
+2008-08-29 Guido Scholz <guido.scholz@bayernline.de>
+	* modularsynth.*, module.*, port.*: List of ports now is private
+	to module, port selection rewritten.
+
+2008-08-27 Guido Scholz <guido.scholz@bayernline.de>
+	* synthdata.*: Fixed crash caused by Alsa SND_SEQ_EVENT_SYSEX
+	events.
+	* midicontrollerlist.*: Empty files removed.
+	* midicontroller.*: Possible fix for broken MIDI event type
+	transformation if type values are > 127 (changed "int" to
+	"unsigned int"). Untested.
+	* modularsynth.cpp: Application name added to MIDI in/out port
+	name.
+
+2008-08-17 Guido Scholz <guido.scholz@bayernline.de>
+	* INSTALL: File replaced by generic file which comes with the
+	autotools set.
+
+2008-07-27 Guido Scholz <guido.scholz@bayernline.de>
+	* whole package: Sourcecode files moved to new src subdirectory
+	and newly developed autotools framework added.
+	* man/ams.1: Lost man page added.
+
+2008-07-15 Guido Scholz <guido.scholz@bayernline.de>
+	* mainwindow.cpp, modularsynth.cpp: Menu for recently opened
+	files added.
+	* *.cpp, ams_de.ts: Most strings are made translatable and a
+	German translation is added. Keyboard shortcuts added, where
+	ever possible.
+
+2008-07-12 Guido Scholz <guido.scholz@bayernline.de>
+	* main.cpp: Support for Qt library translations added.
+	* mainwindow.cpp: Application icon added.
+
+2008-07-09 Guido Scholz <guido.scholz@bayernline.de>
+	* main.cpp, mainwindow.*, modularsynth.*: "File save as" function
+	implemented.
+
+2008-06-17 Guido Scholz <guido.scholz@bayernline.de>
+	* ringbuffer.h: Adapt atomic operations to new Qt 4.4 interface
+

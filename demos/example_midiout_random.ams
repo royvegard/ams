@@ -1,0 +1,52 @@
+Module 16 1 377 19 0 0
+Port 0 2 1 3
+ComboBox 1 0 10 1
+Module 29 2 557 122 0 0
+Port 0 0 2 1
+Port 1 0 2 8
+Port 2 1 2 1
+FSlider 2 0 16384 0 0 163840 1
+FSlider 2 1 16384 0 0 163840 1
+FSlider 2 2 9007 0 0 163840 1
+ISlider 2 0 69 1
+ISlider 2 1 57 1
+ISlider 2 2 24 1
+ISlider 2 3 25 1
+ComboBox 2 0 0 1
+ComboBox 2 1 2 1
+Module 14 3 144 18 0 0
+FSlider 3 0 25467 0 0 163840 1
+FSlider 3 1 7980 0 0 16384 1
+Module 28 4 546 277 0 0
+FSlider 4 0 8192 0 0 16384 1
+FSlider 4 1 8192 0 0 16384 1
+FSlider 4 2 8192 0 0 16384 1
+ComboBox 4 0 1 1
+Module 14 5 142 177 0 0
+FSlider 5 0 19101 0 0 163840 1
+FSlider 5 1 8192 0 0 16384 1
+Module 14 6 150 368 0 0
+FSlider 6 0 25467 0 0 163840 1
+FSlider 6 1 8192 0 0 16384 1
+Module 29 7 373 370 0 0
+Port 0 2 7 6
+Port 2 1 7 1
+FSlider 7 0 16384 0 0 163840 1
+FSlider 7 1 16384 0 0 163840 1
+FSlider 7 2 8192 0 0 163840 1
+ISlider 7 0 51 1
+ISlider 7 1 42 1
+ISlider 7 2 24 1
+ISlider 7 3 25 1
+ComboBox 7 0 9 1
+ComboBox 7 1 2 1
+Module 16 8 374 188 0 0
+Port 0 2 8 5
+ComboBox 8 0 6 1
+Comment 0 0 253 156 311 192
+#PARA# 0 0 0
+Just connect the two readable MIDI ports of AlsaModularSynth with a GM compatible MIDI sound source and listen :-)
+#ARAP#
+#PARA# 0 0 1
+To make this sound more interesting, it is recommended to select two different MIDI instruments for the two instruments played on MIDI channel 0.
+#ARAP#

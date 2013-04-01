@@ -1,0 +1,132 @@
+Module 7 1 897 302 0 0
+Port 0 0 1 10
+Port 1 1 1 10
+FSlider 1 0 13849 0 0 16384 1
+FSlider 1 1 16384 0 0 16384 1
+FSlider 1 2 16384 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 508 11 0 0
+Port 0 0 3 12
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 -112301 1 -113176 0 1
+FSlider 3 2 98 0 0 16384 1
+FSlider 3 3 2312 0 0 16384 1
+FSlider 3 4 11464 0 0 16384 1
+FSlider 3 5 -108240 1 -113175 0 1
+FSlider 3 6 16384 0 1638 163840 1
+Module 2 4 680 139 0 0
+Port 0 0 4 3
+Port 2 0 4 32
+Port 3 0 4 33
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 19529 0 0 32768 1
+FSlider 4 3 8192 0 0 32768 1
+FSlider 4 4 3710 0 1792 9909 0
+FSMIDI 4 4 10 0 7
+Module 1 5 359 88 0 0
+Port 1 0 5 31
+Port 2 0 5 19
+FSlider 5 0 0 0 0 334 1
+FSlider 5 1 1638 0 0 163840 1
+FSlider 5 2 0 0 0 163840 1
+FSlider 5 3 8192 0 1638 14745 1
+FSlider 5 4 22 0 0 578 1
+FSMIDI 5 4 10 0 1
+FSlider 5 5 0 0 0 163840 1
+ISlider 5 0 1 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 1 1
+Module 6 10 677 301 0 cmt Freeverb (Version 3)
+Port 0 0 10 46
+Port 1 0 10 46
+FSlider 10 0 11502 0 0 16384 1
+FSlider 10 1 -89825 1 -113176 0 1
+FSlider 10 2 -26735 1 -113175 0 1
+FSMIDI 10 2 10 0 7
+FSlider 10 3 -5338 1 -113176 0 1
+FSlider 10 4 16384 0 0 16384 1
+CheckBox 10 0 0 1
+Module 10 12 9 8 0 0
+FSlider 12 0 14 0 -2743 2729 1
+FSMIDI 12 0 13 0 0
+ISlider 12 0 24 1
+ComboBox 12 0 0 1
+Module 3 19 145 277 0 0
+FSlider 19 0 179722 0 0 1638400 1
+FSlider 19 1 0 0 0 102940 1
+Module 1 28 359 318 0 0
+Port 1 0 28 30
+Port 2 0 28 19
+FSlider 28 0 38 0 0 612 1
+FSMIDI 28 0 10 0 4
+FSlider 28 1 8192 0 1638 14745 1
+FSlider 28 2 0 0 0 16384 1
+FSlider 28 3 0 0 0 102940 1
+FSlider 28 4 22 0 0 578 1
+FSMIDI 28 4 10 0 1
+FSlider 28 5 163840 0 0 163840 1
+ISlider 28 0 1 1
+ISlider 28 1 1 1
+ISlider 28 2 1 1
+ComboBox 28 0 0 1
+Module 15 30 145 182 0 0
+Port 0 1 30 12
+FSlider 30 0 3274 0 0 3274 1
+FSMIDI 30 0 10 0 6
+FSlider 30 1 3274 0 0 3274 1
+FSMIDI 30 1 10 0 6
+Module 15 31 145 88 0 0
+Port 0 1 31 12
+FSlider 31 0 3274 0 0 3274 1
+FSMIDI 31 0 10 0 6
+FSlider 31 1 3279 0 0 3279 1
+FSMIDI 31 1 10 0 6
+Module 8 32 509 164 2 0
+Port 0 0 32 5
+Port 1 1 32 5
+FSlider 32 0 16384 0 0 32768 1
+FSlider 32 1 7225 0 0 16384 0
+FSMIDI 32 1 10 0 5
+FSlider 32 2 9159 0 0 16383 1
+FSMIDI 32 2 10 0 5
+Module 8 33 506 393 2 0
+Port 0 0 33 28
+Port 1 1 33 28
+FSlider 33 0 16384 0 0 32768 1
+FSlider 33 1 7225 0 0 16384 0
+FSMIDI 33 1 10 0 5
+FSlider 33 2 9155 0 0 16376 1
+FSMIDI 33 2 10 0 5
+Module 6 46 801 212 0 valve_1209 Valve saturation
+Port 0 0 46 4
+FSlider 46 0 14964 0 0 16384 1
+FSMIDI 46 0 10 0 2
+FSlider 46 1 7611 0 0 16384 1
+FSMIDI 46 1 10 0 3
+Comment 0 0 198 152 327 239
+#PARA# 0 0 0
+This patch has been contributed by Christoph Eckert.
+#ARAP#
+#PARA# 0 0 1
+
+#ARAP#
+#PARA# 0 0 2
+In addition to Pitchbender and ModWheel, the following MIDI bindings exist:
+#ARAP#
+#PARA# 0 0 3
+CC02 and CC03 Valve Saturation
+#ARAP#
+#PARA# 0 0 4
+CC04 Detune
+#ARAP#
+#PARA# 0 0 5
+CC05 Crossfade between Sine Triangle
+#ARAP#
+#PARA# 0 0 6
+CC06 Glide on/off (switch)
+#ARAP#
+#PARA# 0 0 7
+CC07 Reverb
+#ARAP#

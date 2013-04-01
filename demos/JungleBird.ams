@@ -1,0 +1,86 @@
+Module 7 1 652 42 0 0
+Port 0 0 1 10
+Port 1 1 1 10
+FSlider 1 0 13849 0 0 16384 1
+FSlider 1 1 16384 0 0 16384 1
+FSlider 1 2 16384 0 0 16384 1
+ComboBox 1 0 1 1
+Module 2 4 319 19 0 0
+Port 0 0 4 23
+Port 2 0 4 14
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 418 0 0 163840 1
+FSlider 4 2 1254 0 0 32768 1
+FSlider 4 3 4681 0 0 32768 1
+FSlider 4 4 8192 0 0 32768 1
+Module 6 10 462 40 0 cmt Freeverb (Version 3)
+Port 0 0 10 4
+Port 1 0 10 4
+FSlider 10 0 8234 0 0 16384 1
+FSlider 10 1 -19337 1 -113176 0 1
+FSlider 10 2 -9803 1 -113175 0 1
+FSMIDI 10 2 10 0 2
+FSlider 10 3 -5338 1 -113176 0 1
+FSlider 10 4 16342 0 0 16384 1
+CheckBox 10 0 0 1
+Module 10 12 5 25 0 0
+FSlider 12 0 129 0 -16384 16384 1
+ISlider 12 0 24 1
+ComboBox 12 0 0 1
+Module 1 14 317 212 0 0
+Port 1 0 14 22
+Port 2 1 14 23
+FSlider 14 0 0 0 0 16384 1
+FSlider 14 1 8192 0 1638 14745 1
+FSlider 14 2 0 0 0 16384 1
+FSlider 14 3 0 0 0 102940 1
+FSlider 14 4 27736 0 988 51689 0
+FSMIDI 14 4 13 0 0
+FSlider 14 5 1260 0 0 163840 1
+ISlider 14 0 6 1
+ISlider 14 1 1 1
+ISlider 14 2 1 1
+ComboBox 14 0 0 1
+Module 18 22 125 20 0 0
+FSlider 22 0 33019 0 0 81920 1
+FSlider 22 1 0 0 -8192 8192 1
+FSlider 22 2 0 0 0 81920 1
+FSlider 22 3 0 0 -8192 8192 1
+FSlider 22 4 0 0 0 81920 1
+FSlider 22 5 0 0 -8192 8192 1
+FSlider 22 6 0 0 0 81920 1
+FSlider 22 7 0 0 -8192 8192 1
+Module 22 23 121 166 0 0
+Port 0 0 23 12
+FSlider 23 0 16036 0 1638 163840 1
+FSlider 23 1 0 0 0 10191 1
+FSlider 23 2 0 0 0 16384 1
+FSlider 23 3 326 0 0 16384 1
+FSlider 23 4 8400 0 0 16384 1
+FSlider 23 5 2048 0 0 16384 1
+FSlider 23 6 8643 0 0 16384 1
+FSMIDI 23 6 10 0 1
+FSlider 23 7 1187 0 0 16384 1
+FSlider 23 8 16087 0 0 16384 1
+FSlider 23 9 3740 0 0 16384 1
+FSlider 23 10 1276 0 0 16384 1
+FSlider 23 11 0 0 0 16384 1
+FSlider 23 12 1306 0 0 16384 1
+FSlider 23 13 0 0 0 16384 1
+FSlider 23 14 1187 0 0 16384 1
+Comment 0 0 411 212 315 182
+#PARA# 0 0 0
+This sound (contributed by Christoph Eckert) demonstrates the possibility to also use the keyboard with a fixed pitch.
+#ARAP#
+#PARA# 0 0 1
+You may use Pitch Bender to vary the pitch.
+#ARAP#
+#PARA# 0 0 2
+If you have CC02 assigned, it will control the reverb.
+#ARAP#
+#PARA# 0 0 3
+
+#ARAP#
+#PARA# 0 0 4
+Have fun!
+#ARAP#

@@ -1,0 +1,134 @@
+Module 7 2 985 187 0 0
+Port 0 0 2 13
+Port 1 1 2 13
+FSlider 2 0 8192 0 0 16384 1
+FSlider 2 1 8192 0 0 16384 1
+FSlider 2 2 8192 0 0 16384 1
+ComboBox 2 0 1 1
+Module 1 3 204 192 0 0
+Port 1 1 3 10
+Port 4 0 3 11
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 1638 0 0 163840 1
+FSlider 3 2 0 0 0 163840 1
+FSlider 3 3 8192 0 1638 14745 1
+FSlider 3 4 3838 0 0 16384 1
+FSlider 3 5 0 0 0 102940 1
+ISlider 3 0 2 1
+ISlider 3 1 1 1
+ISlider 3 2 1 1
+ComboBox 3 0 0 1
+Module 9 4 503 186 0 0
+Port 0 0 4 15
+Port 1 1 4 10
+Port 2 1 4 12
+FSlider 4 0 12121 0 0 163840 1
+FSlider 4 1 65930 0 0 163840 1
+FSlider 4 2 49693 0 0 163840 1
+FSlider 4 3 0 0 0 163840 1
+FSlider 4 4 3281 0 163 16384 1
+FSlider 4 5 0 0 0 16384 1
+ComboBox 4 0 1 1
+Module 11 5 215 49 0 0
+Port 0 0 5 10
+FSlider 5 0 0 0 0 16384 1
+FSlider 5 1 -86324 1 -113176 0 1
+FSlider 5 2 1968 0 0 16384 1
+FSlider 5 3 -24470 1 -113176 0 1
+FSlider 5 4 0 0 0 16384 1
+FSlider 5 5 819 0 0 16384 1
+FSlider 5 6 16384 0 1638 163840 1
+Module 2 6 645 112 0 0
+Port 0 0 6 5
+Port 2 0 6 4
+FSlider 6 0 0 0 0 163840 1
+FSlider 6 1 0 0 0 163840 1
+FSlider 6 2 8192 0 0 16384 1
+FSlider 6 3 8192 0 0 16384 1
+FSlider 6 4 8192 0 0 16384 1
+Module 12 10 16 50 16 0
+ISlider 10 0 0 1
+ISlider 10 1 111 1
+ISlider 10 2 31 1
+ISlider 10 3 63 1
+ISlider 10 4 12 1
+ISlider 10 5 63 1
+ISlider 10 6 32 1
+ISlider 10 7 63 1
+ISlider 10 8 10 1
+ISlider 10 9 63 1
+ISlider 10 10 31 1
+ISlider 10 11 63 1
+ISlider 10 12 11 1
+ISlider 10 13 63 1
+ISlider 10 14 29 1
+ISlider 10 15 63 1
+ISlider 10 16 12 1
+ISlider 10 17 63 1
+ISlider 10 18 31 1
+ISlider 10 19 63 1
+ISlider 10 20 24 1
+ISlider 10 21 63 1
+ISlider 10 22 27 1
+ISlider 10 23 63 1
+ISlider 10 24 31 1
+ISlider 10 25 63 1
+ISlider 10 26 31 1
+ISlider 10 27 63 1
+ISlider 10 28 7 1
+ISlider 10 29 63 1
+ISlider 10 30 32 1
+ISlider 10 31 63 1
+ISlider 10 32 43 1
+ISlider 10 33 63 1
+ComboBox 10 0 1 1
+CheckBox 10 0 1 1
+CheckBox 10 1 1 1
+CheckBox 10 2 1 1
+CheckBox 10 3 1 1
+CheckBox 10 4 1 1
+CheckBox 10 5 1 1
+CheckBox 10 6 1 1
+CheckBox 10 7 1 1
+CheckBox 10 8 1 1
+CheckBox 10 9 1 1
+CheckBox 10 10 1 1
+CheckBox 10 11 1 1
+CheckBox 10 12 1 1
+CheckBox 10 13 1 1
+CheckBox 10 14 1 1
+CheckBox 10 15 1 1
+Module 3 11 31 276 0 0
+FSlider 11 0 93891 0 0 1638400 1
+FSlider 11 1 0 0 0 102940 1
+Module 3 12 335 369 0 0
+FSlider 12 0 -47346 1 -75451 75451 1
+FSlider 12 1 0 0 0 102940 1
+Module 6 13 783 186 0 cmt Freeverb (Version 3)
+Port 0 0 13 6
+Port 1 0 13 6
+FSlider 13 0 8591 0 0 16384 1
+FSlider 13 1 -78802 1 -113176 0 1
+FSlider 13 2 -14592 1 -113176 0 1
+FSlider 13 3 -11674 1 -113176 0 1
+FSlider 13 4 16384 0 0 16384 1
+CheckBox 13 0 0 1
+Module 1 14 203 427 0 0
+Port 1 1 14 10
+Port 4 1 14 11
+FSlider 14 0 -72732 1 -113176 0 1
+FSlider 14 1 1638 0 0 163840 1
+FSlider 14 2 0 0 0 163840 1
+FSlider 14 3 8192 0 1638 14745 1
+FSlider 14 4 0 0 0 16384 1
+FSlider 14 5 0 0 0 102940 1
+ISlider 14 0 1 1
+ISlider 14 1 1 1
+ISlider 14 2 1 1
+ComboBox 14 0 0 1
+Module 8 15 332 251 2 0
+Port 0 3 15 3
+Port 1 3 15 14
+FSlider 15 0 8192 0 0 16384 1
+FSlider 15 1 8192 0 0 16384 1
+FSlider 15 2 16384 0 0 16384 1

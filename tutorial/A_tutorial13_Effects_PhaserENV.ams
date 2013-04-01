@@ -1,0 +1,59 @@
+Module 1 1 146 7 0 0
+Port 1 1 1 2
+FSlider 1 0 0 0 0 16384 1
+FSlider 1 1 8192 0 1638 14745 1
+FSlider 1 2 0 0 0 16384 1
+FSlider 1 3 0 0 0 102940 1
+FSlider 1 4 0 0 0 163840 1
+FSlider 1 5 0 0 0 163840 1
+ISlider 1 0 2 1
+ISlider 1 1 1 1
+ISlider 1 2 1 1
+ComboBox 1 0 0 1
+Module 10 2 5 6 0 0
+FSlider 2 0 0 0 -16384 16384 1
+ISlider 2 0 48 1
+ComboBox 2 0 0 1
+Module 7 4 540 353 0 0
+Port 0 0 4 15
+Port 1 0 4 15
+FSlider 4 0 8192 0 0 16384 1
+FSlider 4 1 8192 0 0 16384 1
+FSlider 4 2 8192 0 0 16384 1
+ComboBox 4 0 1 1
+Module 2 8 290 143 0 0
+Port 0 0 8 9
+Port 2 3 8 1
+FSlider 8 0 0 0 0 163840 1
+FSlider 8 1 0 0 0 163840 1
+FSlider 8 2 16384 0 0 32768 1
+FSlider 8 3 16384 0 0 32768 1
+FSlider 8 4 16384 0 0 32768 1
+Module 11 9 145 255 0 0
+Port 0 0 9 2
+Port 1 3 9 2
+FSlider 9 0 0 0 0 16384 1
+FSlider 9 1 11842 0 0 16384 1
+FSlider 9 2 0 0 0 16384 1
+FSlider 9 3 13951 0 0 16384 1
+FSlider 9 4 3853 0 0 16384 1
+FSlider 9 5 11680 0 0 16384 1
+FSlider 9 6 16384 0 1638 163840 1
+Module 6 15 475 181 0 cs_phaser Phaser1
+Port 0 0 15 8
+Port 1 1 15 9
+Port 2 1 15 9
+FSlider 15 0 0 0 -655360 163840 1
+FSlider 15 1 21388 0 -81920 81920 1
+FSlider 15 2 82324 0 0 163840 1
+FSlider 15 3 0 0 0 163840 1
+FSlider 15 4 7829 0 -16384 16384 1
+FSlider 15 5 8313 0 -16384 16384 1
+LSlider 15 0 12 1
+Comment 0 0 94 32 355 251
+#PARA# 0 0 0
+Here we use the Phaser1 without LFO. This version has external ports for frequency control. 
+#ARAP#
+#PARA# 0 0 1
+The inverse output of the envelope is attached to both the "Frequency" and "Exp. FM" ports. This way the range of the filter sweep can be increased with the "Exp. FM gain" parameter of the phaser. 
+#ARAP#

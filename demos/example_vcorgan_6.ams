@@ -1,0 +1,93 @@
+Module 7 1 764 139 0 0
+Port 0 0 1 12
+Port 1 1 1 12
+FSlider 1 0 7131 0 0 16384 1
+FSlider 1 1 7725 0 0 16384 1
+FSlider 1 2 7640 0 0 16384 1
+ComboBox 1 0 1 1
+Module 10 4 5 57 0 0
+FSlider 4 0 0 0 -16384 16384 1
+ISlider 4 0 24 1
+ComboBox 4 0 0 1
+Module 11 7 158 37 0 0
+Port 0 0 7 4
+FSlider 7 0 0 0 0 16384 1
+FSlider 7 1 214 0 0 16384 1
+FSlider 7 2 327 0 0 16384 1
+FSlider 7 3 1544 0 0 16384 1
+FSlider 7 4 7806 0 0 16384 1
+FSlider 7 5 386 0 0 16384 1
+FSlider 7 6 9706 0 1638 163840 1
+Module 2 8 338 42 0 0
+Port 0 0 8 7
+Port 2 0 8 21
+FSlider 8 0 0 0 0 163840 1
+FSlider 8 1 0 0 0 163840 1
+FSlider 8 2 15111 0 0 32768 1
+FSlider 8 3 14856 0 0 32768 1
+FSlider 8 4 10357 0 0 32768 1
+Module 6 12 518 90 0 cmt Freeverb (Version 3)
+Port 0 0 12 8
+Port 1 0 12 8
+FSlider 12 0 12437 0 0 16384 1
+FSlider 12 1 -102621 1 -113176 0 1
+FSlider 12 2 -24628 1 -113176 0 1
+FSlider 12 3 -3222 1 -113176 0 1
+FSlider 12 4 16384 0 0 16384 1
+CheckBox 12 0 0 1
+Module 20 21 188 224 6 0
+Port 0 1 21 4
+Port 1 0 21 31
+FSlider 21 0 0 0 0 16384 1
+FSlider 21 1 -86709 1 -113176 37725 1
+FSlider 21 2 0 0 0 163840 1
+FSlider 21 3 16384 0 0 16384 1
+FSlider 21 4 16384 0 0 16384 1
+FSlider 21 5 16384 0 0 16384 1
+FSlider 21 6 16384 0 0 16384 1
+FSlider 21 7 11948 0 0 16384 1
+FSlider 21 8 9981 0 0 16384 1
+FSlider 21 9 0 0 0 16384 1
+FSlider 21 10 0 0 0 102940 1
+FSlider 21 11 0 0 0 16384 1
+FSlider 21 12 0 0 0 102940 1
+FSlider 21 13 0 0 0 16384 1
+FSlider 21 14 0 0 0 102940 1
+FSlider 21 15 0 0 0 16384 1
+FSlider 21 16 0 0 0 102940 1
+FSlider 21 17 5461 0 0 16384 1
+FSlider 21 18 0 0 0 102940 1
+FSlider 21 19 9835 0 0 16384 1
+FSlider 21 20 0 0 0 102940 1
+ISlider 21 0 0 1
+ISlider 21 1 0 1
+ISlider 21 2 1 1
+ISlider 21 3 1 1
+ISlider 21 4 1 1
+ISlider 21 5 1 1
+ISlider 21 6 1 1
+ISlider 21 7 2 1
+ISlider 21 8 1 1
+ISlider 21 9 1 1
+ISlider 21 10 3 1
+ISlider 21 11 1 1
+ISlider 21 12 1 1
+ISlider 21 13 3 1
+ISlider 21 14 1 1
+ISlider 21 15 1 1
+ISlider 21 16 3 1
+ISlider 21 17 1 1
+ISlider 21 18 1 1
+ComboBox 21 0 0 1
+ComboBox 21 1 0 1
+ComboBox 21 2 0 1
+ComboBox 21 3 0 1
+ComboBox 21 4 3 1
+ComboBox 21 5 3 1
+Module 3 31 40 253 0 0
+FSlider 31 0 127337 0 0 1638400 1
+FSlider 31 1 0 0 0 102940 1
+Comment 0 0 372 223 200 170
+#PARA# 0 0 0
+This patch has been contributed by Jörg Anders.
+#ARAP#

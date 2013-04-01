@@ -1,0 +1,43 @@
+Module 1 1 255 12 0 0
+Port 1 1 1 2
+FSlider 1 0 0 0 0 16384 1
+FSlider 1 1 8192 0 1638 14745 1
+FSlider 1 2 0 0 0 16384 1
+FSlider 1 3 0 0 0 102940 1
+FSlider 1 4 0 0 0 163840 1
+FSlider 1 5 0 0 0 163840 1
+ISlider 1 0 3 1
+ISlider 1 1 1 1
+ISlider 1 2 1 1
+ComboBox 1 0 0 1
+Module 10 2 44 363 0 0
+FSlider 2 0 0 0 -16384 16384 1
+ISlider 2 0 60 1
+ComboBox 2 0 0 1
+Module 24 3 621 11 0 0
+Port 0 0 3 1
+Port 1 0 3 2
+FSlider 3 0 665926 0 163840 16384000 1
+FSlider 3 1 16384 0 1638 163840 1
+FSlider 3 2 0 0 -16384 16384 1
+ComboBox 3 0 1 1
+ComboBox 3 1 0 1
+Module 7 4 621 206 0 0
+Port 0 0 4 1
+Port 1 1 4 1
+FSlider 4 0 8192 0 0 16384 1
+FSlider 4 1 8192 0 0 16384 1
+FSlider 4 2 8192 0 0 16384 1
+ComboBox 4 0 1 1
+Module 24 6 621 106 0 0
+Port 0 1 6 1
+Port 1 1 6 2
+FSlider 6 0 668231 0 163840 16384000 1
+FSlider 6 1 16384 0 1638 163840 1
+FSlider 6 2 0 0 -16384 16384 1
+ComboBox 6 0 1 1
+ComboBox 6 1 0 1
+Comment 0 0 427 309 301 188
+#PARA# 0 0 0
+The PCM Out module is the interface to your soundcard. Its "Gain" parameter controls the output gain. Port "In 0" corresponds to the left channel, "In 1" is the right channel.  
+#ARAP#

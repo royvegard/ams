@@ -1,0 +1,62 @@
+Module 7 1 630 36 0 0
+Port 0 0 1 4
+Port 1 0 1 4
+FSlider 1 0 11642 0 0 16384 1
+FSlider 1 1 16384 0 0 16384 1
+FSlider 1 2 16384 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 188 8 0 0
+Port 0 0 3 9
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 -72732 1 -113176 0 1
+FSlider 3 2 98 0 0 16384 1
+FSlider 3 3 12448 0 0 16384 1
+FSlider 3 4 4969 0 0 16384 1
+FSlider 3 5 7380 0 0 16384 1
+FSlider 3 6 16384 0 1638 163840 1
+Module 2 4 507 9 0 0
+Port 0 0 4 3
+Port 2 0 4 7
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 19529 0 0 32768 1
+FSlider 4 3 8192 0 0 32768 1
+FSlider 4 4 8192 0 0 32768 1
+Module 1 5 184 199 0 0
+Port 1 1 5 9
+FSlider 5 0 0 0 0 16384 1
+FSlider 5 1 1638 0 0 163840 1
+FSlider 5 2 0 0 0 163840 1
+FSlider 5 3 8192 0 1638 14745 1
+FSlider 5 4 0 0 0 163840 1
+FSlider 5 5 0 0 0 163840 1
+ISlider 5 0 0 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 0 1
+Module 9 7 355 106 0 0
+Port 0 2 7 5
+Port 1 1 7 9
+FSlider 7 0 21157 0 0 163840 1
+FSlider 7 1 38621 0 10449 133827 1
+FSMIDI 7 1 10 0 1
+FSlider 7 2 0 0 0 163840 1
+FSlider 7 3 0 0 0 163840 1
+FSlider 7 4 13107 0 163 16384 1
+FSlider 7 5 0 0 0 16384 1
+ComboBox 7 0 6 1
+Module 10 9 22 81 0 0
+FSlider 9 0 129 0 -16384 16384 1
+FSMIDI 9 0 13 0 0
+ISlider 9 0 24 1
+ComboBox 9 0 0 1
+Comment 0 0 309 300 414 187
+#PARA# 0 0 0
+In this patch a VCF filter module has been added to the basic patch. The cutoff frequency of the filter is shifted according to the frequency voltage supplied by the MCV ("VCF tracking").
+#ARAP#
+#PARA# 0 0 1
+
+#ARAP#
+#PARA# 0 0 2
+The pitchbender is connected to the "Pitch" parameter of the MCV. The modulation wheel has been bound to the "Frequency" parameter of the VCF.
+#ARAP#

@@ -1,0 +1,73 @@
+Module 1 1 146 7 0 0
+Port 1 1 1 2
+FSlider 1 0 0 0 0 16384 1
+FSlider 1 1 8192 0 1638 14745 1
+FSlider 1 2 0 0 0 16384 1
+FSlider 1 3 0 0 0 102940 1
+FSlider 1 4 0 0 0 163840 1
+FSlider 1 5 0 0 0 163840 1
+ISlider 1 0 1 1
+ISlider 1 1 1 1
+ISlider 1 2 1 1
+ComboBox 1 0 0 1
+Module 10 2 5 6 0 0
+FSlider 2 0 0 0 -16384 16384 1
+ISlider 2 0 24 1
+ComboBox 2 0 0 1
+Module 7 4 636 287 0 0
+Port 0 0 4 14
+Port 1 1 4 14
+FSlider 4 0 8192 0 0 16384 1
+FSlider 4 1 8192 0 0 16384 1
+FSlider 4 2 8192 0 0 16384 1
+ComboBox 4 0 1 1
+Module 2 8 290 143 0 0
+Port 0 0 8 9
+Port 2 3 8 1
+FSlider 8 0 0 0 0 163840 1
+FSlider 8 1 0 0 0 163840 1
+FSlider 8 2 16384 0 0 32768 1
+FSlider 8 3 16384 0 0 32768 1
+FSlider 8 4 16384 0 0 32768 1
+Module 11 9 145 255 0 0
+Port 0 0 9 2
+FSlider 9 0 0 0 0 16384 1
+FSlider 9 1 324 0 0 16384 1
+FSlider 9 2 327 0 0 16384 1
+FSlider 9 3 3285 0 0 16384 1
+FSlider 9 4 8192 0 0 16384 1
+FSlider 9 5 7989 0 0 16384 1
+FSlider 9 6 16384 0 1638 163840 1
+Module 6 11 418 143 0 cs_chorus Chorus2
+Port 0 0 11 8
+FSlider 11 0 39951 0 0 491520 1
+FSlider 11 1 24630 1 -95176 37725 1
+FSlider 11 2 5246 0 0 163840 1
+FSlider 11 3 -24078 1 -75451 55725 1
+FSlider 11 4 13680 0 0 49152 1
+Module 8 12 417 266 2 0
+Port 0 0 12 8
+Port 1 0 12 11
+FSlider 12 0 16384 0 0 32768 1
+FSlider 12 1 6537 0 0 32768 1
+FSlider 12 2 16384 0 0 32768 1
+Module 6 14 454 398 0 g2reverb Stereo reverb
+Port 0 0 14 12
+Port 1 0 14 12
+FSlider 14 0 1480210 0 163840 2457600 1
+FSlider 14 1 46287 0 16384 327680 1
+FSlider 14 2 11663 0 0 16384 1
+FSlider 14 3 4439 0 0 16384 1
+FSlider 14 4 0 0 -1310720 0 1
+FSlider 14 5 -116221 0 -1310720 0 1
+FSlider 14 6 -158190 0 -1310720 0 1
+Comment 0 0 128 74 491 292
+#PARA# 0 0 0
+Here we use a LADSPA Reverb plugin to add ambience to the sound. Let's have a look at the parameters of the G2reverb plugin: 
+#ARAP#
+#PARA# 0 0 1
+"Room size", "Reverb time" and "Dry sound" are self-explanatory. "Reverb tail" is the classical reverbation. "Reflections" is the level of the early reflections which the sound waves experience at the boundaries of the room/hall. A high level of "Reflections" generates the impression of a relatively closed room, whereas a low level of" Reflections" and a high level of "Reverb tail" generate the impression of an open hall. 
+#ARAP#
+#PARA# 0 0 2
+"Damping" and "Input BW" control low pass filters. "Input BW" is the bandwidth of the sound that enters the reverb processing. 
+#ARAP#

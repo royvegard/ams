@@ -1,0 +1,59 @@
+Module 17 1 6 139 0 0
+FSlider 1 0 18027 0 0 32768 1
+FSlider 1 1 16384 0 0 32768 1
+FSlider 1 2 16384 0 0 32768 1
+Module 7 2 631 144 0 0
+Port 0 0 2 5
+Port 1 1 2 5
+FSlider 2 0 8192 0 0 16384 1
+FSlider 2 1 8192 0 0 16384 1
+FSlider 2 2 8192 0 0 16384 1
+ComboBox 2 0 1 1
+Module 6 3 461 144 0 cmt Canyon Delay
+Port 0 0 3 6
+Port 1 0 3 6
+FSlider 3 0 10515 0 163 16220 1
+FSlider 3 1 6619 0 -16384 16384 1
+FSlider 3 2 13183 0 163 16220 1
+FSlider 3 3 6619 0 -16384 16384 1
+FSlider 3 4 81920000 0 16384 81920000 1
+Module 6 5 432 257 0 cmt Freeverb (Version 3)
+Port 0 0 5 3
+Port 1 1 5 3
+FSlider 5 0 12065 0 0 16384 1
+FSlider 5 1 -86907 1 -113176 0 1
+FSlider 5 2 -1699 1 -113176 0 1
+FSlider 5 3 0 1 -113176 0 1
+FSlider 5 4 16384 0 0 16384 1
+CheckBox 5 0 0 1
+Module 9 6 250 116 0 0
+Port 0 0 6 7
+FSlider 6 0 16384 0 0 163840 1
+FSlider 6 1 163840 0 41047 163840 1
+FSlider 6 2 0 0 0 163840 1
+FSlider 6 3 0 0 0 163840 1
+FSlider 6 4 11464 0 163 16384 1
+FSlider 6 5 0 0 0 16384 1
+ComboBox 6 0 6 1
+Module 8 7 127 134 2 0
+Port 0 0 7 1
+Port 1 1 7 1
+FSlider 7 0 16384 0 0 32768 1
+FSlider 7 1 16384 0 0 32768 1
+FSlider 7 2 16384 0 0 32768 1
+Comment 0 0 41 290 362 191
+#PARA# 0 0 0
+This patch demonstrates the PCM In module. You can use this module to capture sound either from the "Line In" , "Mic In" or any other capture inputs of your soundcard.
+#ARAP#
+#PARA# 0 0 1
+
+#ARAP#
+#PARA# 0 0 2
+Please check your mixer settings and make sure that you selected the desired capture device. You might also have to adjust the capture level.
+#ARAP#
+#PARA# 0 0 3
+
+#ARAP#
+#PARA# 0 0 4
+
+#ARAP#

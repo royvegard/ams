@@ -1,0 +1,103 @@
+Module 7 1 590 33 0 0
+Port 0 0 1 21
+Port 1 1 1 21
+FSlider 1 0 8192 0 0 16384 1
+FSlider 1 1 8192 0 0 16384 1
+FSlider 1 2 8192 0 0 16384 1
+ComboBox 1 0 1 1
+Module 11 3 188 15 0 0
+Port 0 0 3 7
+FSlider 3 0 0 0 0 16384 1
+FSlider 3 1 -22691 1 -113176 0 1
+FSlider 3 2 98 0 0 16384 1
+FSlider 3 3 0 0 0 16384 1
+FSlider 3 4 16384 0 0 16384 1
+FSlider 3 5 7380 0 0 16384 1
+FSlider 3 6 16384 0 1638 163840 1
+Module 2 4 425 19 0 0
+Port 0 0 4 3
+Port 2 0 4 22
+FSlider 4 0 0 0 0 163840 1
+FSlider 4 1 0 0 0 163840 1
+FSlider 4 2 8192 0 0 16384 1
+FSlider 4 3 8192 0 0 16384 1
+FSlider 4 4 8192 0 0 16384 1
+Module 1 5 237 153 0 0
+Port 1 1 5 7
+Port 4 1 5 10
+FSlider 5 0 94 0 0 669 1
+FSlider 5 1 1638 0 0 163840 1
+FSlider 5 2 2101 0 0 163840 1
+FSlider 5 3 8192 0 1638 14745 1
+FSlider 5 4 0 0 0 163840 1
+FSlider 5 5 0 0 0 163840 1
+ISlider 5 0 2 1
+ISlider 5 1 1 1
+ISlider 5 2 1 1
+ComboBox 5 0 0 1
+Module 10 7 10 24 0 0
+FSlider 7 0 129 0 -16384 16384 1
+FSMIDI 7 0 13 0 0
+ISlider 7 0 24 1
+ComboBox 7 0 0 1
+Module 1 9 137 208 0 0
+Port 1 1 9 7
+Port 2 2 9 11
+Port 4 1 9 10
+FSlider 9 0 0 0 0 16384 1
+FSlider 9 1 8259 0 1638 14745 1
+FSlider 9 2 630 0 0 16384 1
+FSlider 9 3 0 0 0 102940 1
+FSlider 9 4 267 0 0 1486 1
+FSlider 9 5 0 0 0 163840 1
+ISlider 9 0 2 1
+ISlider 9 1 1 1
+ISlider 9 2 1 1
+ComboBox 9 0 0 1
+Module 3 10 9 277 0 0
+FSlider 10 0 188082 0 0 1638400 1
+FSlider 10 1 0 0 0 102940 1
+Module 14 11 5 148 0 0
+FSlider 11 0 418 0 0 163840 1
+FSlider 11 1 14169 0 0 16384 1
+Module 8 16 365 277 4 0
+Port 0 2 16 5
+Port 1 2 16 9
+Port 2 3 16 5
+Port 3 3 16 9
+FSlider 16 0 16384 0 0 32768 1
+FSlider 16 1 16384 0 0 32768 1
+FSlider 16 2 16384 0 0 32768 1
+FSlider 16 3 16384 0 0 32768 1
+FSlider 16 4 16384 0 0 32768 1
+Module 6 20 351 183 0 cs_chorus Chorus2
+Port 0 0 20 4
+FSlider 20 0 31477 0 0 491520 1
+FSlider 20 1 32815 1 -95176 37725 1
+FSlider 20 2 2825 0 0 163840 1
+FSlider 20 3 13723 1 -75451 55725 1
+FSlider 20 4 3027 0 0 49152 1
+Module 6 21 490 359 0 g2reverb Stereo reverb
+Port 0 0 21 20
+Port 1 0 21 20
+FSlider 21 0 1067785 0 163840 2457600 1
+FSlider 21 1 31719 0 16384 327680 1
+FSlider 21 2 13317 0 0 16384 1
+FSlider 21 3 3309 0 0 16384 1
+FSlider 21 4 0 0 -1310720 0 1
+FSlider 21 5 -142048 0 -1310720 0 1
+FSlider 21 6 -248585 0 -1310720 0 1
+Module 6 22 472 220 0 mvclpf24 Mvclpf-4
+Port 0 0 22 16
+FSlider 22 0 0 0 -983040 163840 1
+FSlider 22 1 54765 0 -190 81920 1
+FSMIDI 22 1 10 0 1
+FSlider 22 2 0 0 0 163840 1
+FSlider 22 3 686 0 0 16384 1
+FSlider 22 4 0 0 0 16384 1
+FSlider 22 5 0 0 -245760 245760 1
+LSlider 22 0 3 1
+Comment 0 0 31 290 200 170
+#PARA# 0 0 0
+This patch is based on the article "Synth Secrets, Synthesizing Strings" by Gordon Reid, published in Sound on Sound, Vol. 18(4), Feb. 2003
+#ARAP#
