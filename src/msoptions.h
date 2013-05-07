@@ -32,6 +32,9 @@ struct ModularSynthOptions {
 #ifdef JACK_SESSION
     QString global_jack_session_uuid;
 #endif
+#ifdef NSM_SUPPORT
+    QString execName;
+#endif
 };
 
 #endif    // MSOPTIONS_H

@@ -11,4 +11,5 @@ install-sh
 missing
 aclocal.m4
 CVS
-
+*.o
+.deps

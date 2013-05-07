@@ -36,6 +36,9 @@ class ScrollArea: public QScrollArea {
 
 
 int MainWindow::pipeFd[2];
+#ifdef NSM_SUPPORT
+nsm_client_t *MainWindow::nsm = 0;
+#endif
 
 MainWindow::MainWindow(const ModularSynthOptions& mso)
 {
@@ -68,6 +71,27 @@ MainWindow::MainWindow(const ModularSynthOptions& mso)
   QMenu *newModulePopup = modulePopup->addMenu(tr("&New"));
   modularSynth->contextMenu = newModulePopup;
 
+#ifdef NSM_SUPPORT
+  fileNewAction = new QAction(tr("&New"), this);
+  fileNewAction->setShortcut(Qt::CTRL + Qt::Key_N);
+  connect(fileNewAction, SIGNAL(triggered()), this, SLOT(fileNew()));
+  filePopup->addAction(fileNewAction);
+
+  fileOpenAction = new QAction(tr("&Open..."), this);
+  fileOpenAction->setShortcut(Qt::CTRL + Qt::Key_O);
+  connect(fileOpenAction, SIGNAL(triggered()), this, SLOT(fileOpen()));
+  filePopup->addAction(fileOpenAction);
+
+  fileOpenDemoAction = new QAction(tr("Open &demo..."), this);
+  fileOpenDemoAction->setShortcut(Qt::CTRL + Qt::Key_D);
+  connect(fileOpenDemoAction, SIGNAL(triggered()), this, SLOT(fileOpenDemo()));
+  filePopup->addAction(fileOpenDemoAction);
+
+  fileOpenDemoInstrumentAction = new QAction(tr("Open demo &instrument..."), this);
+  fileOpenDemoInstrumentAction->setShortcut(Qt::CTRL + Qt::Key_I);
+  connect(fileOpenDemoInstrumentAction, SIGNAL(triggered()), this, SLOT(fileOpenDemoInstrument()));
+  filePopup->addAction(fileOpenDemoInstrumentAction);
+#else
   filePopup->addAction(tr("&New"), this, SLOT(fileNew()),
           Qt::CTRL + Qt::Key_N);
   filePopup->addAction(tr("&Open..."), this, SLOT(fileOpen()),
@@ -76,10 +100,17 @@ MainWindow::MainWindow(const ModularSynthOptions& mso)
           Qt::CTRL + Qt::Key_D);
   filePopup->addAction(tr("Open demo &instrument..."), this,
           SLOT(fileOpenDemoInstrument()), Qt::CTRL + Qt::Key_I);
+#endif
   fileRecentlyOpenedFiles = filePopup->addMenu(tr("&Recently opened files"));
   filePopup->addAction(tr("&Save"), this, SLOT(fileSave()),
           Qt::CTRL + Qt::Key_S);
+#ifdef NSM_SUPPORT
+  fileSaveAsAction = new QAction(tr("Save &as..."), this);
+  connect(fileSaveAsAction, SIGNAL(triggered()), this, SLOT(fileSaveAs()));
+  filePopup->addAction(fileSaveAsAction);
+#else
   filePopup->addAction(tr("Save &as..."), this, SLOT(fileSaveAs()));
+#endif
   filePopup->addSeparator();
   filePopup->addAction(tr("&Load Colors..."), modularSynth,
           SLOT(loadColors()));
@@ -305,6 +336,43 @@ MainWindow::MainWindow(const ModularSynthOptions& mso)
   }
   modularSynth->go(mso.forceJack, mso.forceAlsa);
 
+#ifdef NSM_SUPPORT
+  const char *nsm_url = getenv( "NSM_URL" );
+
+  if ( nsm_url )
+  {
+      nsm = nsm_new();
+
+      nsm_set_open_callback( nsm, cb_nsm_open, this );
+      nsm_set_save_callback( nsm, cb_nsm_save, this );
+
+      if ( 0 == nsm_init_thread( nsm, nsm_url ) )
+      {
+          connect(this, SIGNAL(nsmOpenFile(const QString &)), this,
+                  SLOT(openFile(const QString &)));
+          nsm_send_announce( nsm, PACKAGE, ":switch:", synthoptions->execName.toLatin1().constData());
+          nsm_thread_start(nsm);
+      }
+      else
+      {
+          nsm_free( nsm );
+          nsm = 0;
+      }
+  }
+
+  if (nsm)
+  {
+      fileNewAction->setDisabled(true);
+      fileOpenAction->setDisabled(true);
+      fileSaveAsAction->setDisabled(true);
+      fileOpenDemoAction->setDisabled(true);
+      fileOpenDemoInstrumentAction->setDisabled(true);
+      fileRecentlyOpenedFiles->setDisabled(true);
+      hiderecentfiles = true;
+  }
+#endif // NSM_SUPPORT
+
+
   // autoload patch file
   if (mso.havePreset) {
     if (mso.verbose)
@@ -501,9 +569,21 @@ void MainWindow::openFile(const QString& fn)
     QFile f(fn);
 
     if (!f.open(QIODevice::ReadOnly)) {
+#ifdef NSM_SUPPORT
+        if (nsm_is_active(nsm)) {
+            fileName = fn;
+            return;
+        }
+        else {
+            qWarning("%s", tr("Could not read file '%1'").arg(fn)
+                    .toUtf8().constData());
+            return;
+        }
+#else
         qWarning("%s", tr("Could not read file '%1'").arg(fn)
                 .toUtf8().constData());
         return;
+#endif
     }
 
     modularSynth->setPatchPath(fn.left(fn.lastIndexOf('/')));
@@ -755,7 +835,11 @@ void MainWindow::displayPreferences()
 
     prefDialog->setRememberGeometry(restoregeometry);
     prefDialog->setHideRecentFiles(hiderecentfiles);
-
+#ifdef NSM_SUPPORT
+    if (nsm) {
+        prefDialog->setDisabledHideRecentFiles(true);
+    }
+#endif
     prefDialog->setBackgroundColor(modularSynth->getBackgroundColor());
     prefDialog->setModuleBackgroundColor(
             modularSynth->getModuleBackgroundColor());
@@ -818,3 +902,36 @@ void MainWindow::helpAboutAms()
     ad->exec();
     delete ad;
 }
+
+#ifdef NSM_SUPPORT
+int MainWindow::cb_nsm_open(const char *name, const char *display_name, const char *client_id, char **out_msg, void *userdata)
+{
+    return ((MainWindow *)userdata)->nsm_open(name, display_name, client_id, out_msg);
+}
+
+int MainWindow::cb_nsm_save ( char **out_msg, void *userdata )
+{
+    return ((MainWindow *)userdata)->nsm_save(out_msg);
+}
+
+int MainWindow::nsm_open(const char *name, const char *display_name, const char *client_id, char **out_msg)
+{
+    QString configFile = name;
+
+    synthdata->closeJack();
+    synthdata->name = client_id;
+    synthdata->initJack(synthoptions->ncapt, synthoptions->nplay);
+
+    configFile.append(".ams");
+    emit nsmOpenFile(configFile);
+
+    return ERR_OK;
+}
+
+int MainWindow::nsm_save(char **out_msg)
+{
+    int err = ERR_OK;
+    emit fileSave();
+    return err;
+}
+#endif // NSM_SUPPORT

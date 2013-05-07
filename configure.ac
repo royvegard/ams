@@ -189,6 +189,29 @@ if test "$jack_session" != "no"; then
         fi
     fi
 
+# NSM support
+dnl NSM
+AC_ARG_ENABLE(nsm,
+    [AS_HELP_STRING(--disable-nsm, [Disable Non Session Manager support])],
+    [nsm=$enableval],
+    [nsm=yes])
+
+if test "$nsm" != "no"; then
+    PKG_CHECK_MODULES(LIBLO, liblo >= 0.26, [have_liblo=yes], [have_liblo=no])
+    if test "$have_liblo" = "yes"; then
+        AC_DEFINE(NSM_SUPPORT, 1,
+                  [Define to enable NSM support])
+        LIBSsave=$LIBS
+        CFLAGSsave=$CFLAGS
+        CFLAGS=$LIBLO_CFLAGS
+        LIBS=$LIBLO_LIBS
+        AC_SUBST(LIBLO_CFLAGS)
+        AC_SUBST(LIBLO_LIBS)
+        LIBS+=$LIBSsave
+        CFLAGS+=$CFLAGSsave
+    fi
+fi
+
 
 AC_CONFIG_FILES([Makefile])
 AC_CONFIG_FILES([demos/Makefile])

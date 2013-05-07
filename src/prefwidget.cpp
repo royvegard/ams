@@ -437,6 +437,13 @@ bool PrefWidget::getHideRecentFiles()
     return hideRecentFiles->isChecked();
 }
 
+#ifdef NSM_SUPPORT
+void PrefWidget::setDisabledHideRecentFiles(bool disable)
+{
+    hideRecentFiles->setDisabled(disable);
+}
+#endif
+
 void PrefWidget::setBackgroundColor(QColor color)
 {
     colorBackgroundLabel->setPalette(color);

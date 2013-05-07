@@ -156,6 +156,9 @@ int main(int argc, char *argv[])
 #ifdef JACK_SESSION
   msoptions.global_jack_session_uuid = "";
 #endif
+#ifdef NSM_SUPPORT
+  msoptions.execName = argv[0];
+#endif
 
   while ((getopt_return = getopt_long(argc, argv,
                   "AaD:d:e:ghi:JjN:n:o:p:r:vVy:"

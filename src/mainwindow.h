@@ -14,12 +14,20 @@
 #include "msoptions.h"
 #include "prefwidget.h"
 
+#ifdef NSM_SUPPORT
+#include "nsm.h"
+#endif
 
 class MainWindow: public QMainWindow {
     Q_OBJECT
 
     static int pipeFd[2];
     static void sighandler(int);
+#ifdef NSM_SUPPORT
+    static nsm_client_t *nsm;
+    QAction *fileNewAction, *fileOpenAction, *fileSaveAction,
+            *fileSaveAsAction, *fileOpenDemoAction, *fileOpenDemoInstrumentAction;
+#endif
     bool restoregeometry;
     bool hiderecentfiles;
     int rcFd;
@@ -32,7 +40,9 @@ class MainWindow: public QMainWindow {
 
     bool saveFile();
     void newFile();
+#ifndef NSM_SUPPORT
     void openFile(const QString&);
+#endif
     void chooseFile();
     void chooseDemoFile();
     void chooseDemoInstrumentFile();
@@ -72,6 +82,21 @@ protected:
   void readConfig();
   void writeConfig();
 
+#ifdef NSM_SUPPORT
+private:
+  static int cb_nsm_open(const char *name, const char *display_name, const char *client_id, char **out_msg, void *userdata);
+  static int cb_nsm_save(char **out_msg, void *userdata);
+
+  int nsm_open(const char *name, const char *display_name, const char *client_id, char **out_msg);
+  int nsm_save(char **out_msg);
+
+signals:
+  void nsmOpenFile(const QString & name);
+
+public slots:
+  void openFile(const QString&);
+
+#endif
 };
 
 #endif

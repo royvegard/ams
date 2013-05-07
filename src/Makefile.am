@@ -241,6 +241,7 @@ noinst_HEADERS = \
 	module.h \
 	msoptions.h \
 	multi_envelope.h \
+	nsm.h \
 	port.h \
 	port_popup.h \
 	prefwidget.h \

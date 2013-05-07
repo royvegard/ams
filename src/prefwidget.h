@@ -74,6 +74,9 @@ class PrefWidget : public QDialog
     bool getRememberGeometry();
     void setHideRecentFiles(bool hide);
     bool getHideRecentFiles();
+#ifdef NSM_SUPPORT
+    void setDisabledHideRecentFiles(bool disable);
+#endif
 
   signals:
     void prefChanged();
