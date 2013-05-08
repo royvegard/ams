@@ -363,10 +363,7 @@ MainWindow::MainWindow(const ModularSynthOptions& mso)
   if (nsm)
   {
       fileNewAction->setDisabled(true);
-      fileOpenAction->setDisabled(true);
       fileSaveAsAction->setDisabled(true);
-      fileOpenDemoAction->setDisabled(true);
-      fileOpenDemoInstrumentAction->setDisabled(true);
       fileRecentlyOpenedFiles->setDisabled(true);
       hiderecentfiles = true;
   }
@@ -472,8 +469,15 @@ void MainWindow::chooseFile()
 
     if (fn.isEmpty())
         return;
-    else
+    else {
         openFile(fn);
+#ifdef NSM_SUPPORT
+        if (nsm && nsm_is_active(nsm)) {
+            fileName = configFile;
+            updateWindowTitle();
+        }
+#endif
+    }
 }
 
 
@@ -485,8 +489,15 @@ void MainWindow::chooseDemoFile()
 
     if (fn.isEmpty())
         return;
-    else
+    else {
         openFile(fn);
+#ifdef NSM_SUPPORT
+        if (nsm && nsm_is_active(nsm)) {
+            fileName = configFile;
+            updateWindowTitle();
+        }
+#endif
+    }
 }
 
 
@@ -498,8 +509,15 @@ void MainWindow::chooseDemoInstrumentFile()
 
     if (fn.isEmpty())
         return;
-    else
+    else {
         openFile(fn);
+#ifdef NSM_SUPPORT
+        if (nsm && nsm_is_active(nsm)) {
+            fileName = configFile;
+            updateWindowTitle();
+        }
+#endif
+    }
 }
 
 
@@ -916,7 +934,7 @@ int MainWindow::cb_nsm_save ( char **out_msg, void *userdata )
 
 int MainWindow::nsm_open(const char *name, const char *display_name, const char *client_id, char **out_msg)
 {
-    QString configFile = name;
+    configFile = name;
 
     synthdata->closeJack();
     synthdata->name = client_id;

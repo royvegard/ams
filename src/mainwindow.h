@@ -25,6 +25,7 @@ class MainWindow: public QMainWindow {
     static void sighandler(int);
 #ifdef NSM_SUPPORT
     static nsm_client_t *nsm;
+    QString configFile;
     QAction *fileNewAction, *fileOpenAction, *fileSaveAction,
             *fileSaveAsAction, *fileOpenDemoAction, *fileOpenDemoInstrumentAction;
 #endif
