@@ -362,8 +362,11 @@ MainWindow::MainWindow(const ModularSynthOptions& mso)
 
   if (nsm)
   {
-      fileNewAction->setDisabled(true);
-      fileSaveAsAction->setDisabled(true);
+      fileNewAction->setText(tr("Clear"));
+      fileOpenAction->setText(tr("Import to session..."));
+      fileOpenDemoAction->setText(tr("Import demo to session..."));
+      fileOpenDemoInstrumentAction->setText(tr("Import demo instrument to session..."));
+      fileSaveAsAction->setText(tr("Export from session..."));
       fileRecentlyOpenedFiles->setDisabled(true);
       hiderecentfiles = true;
   }
@@ -532,6 +535,11 @@ void MainWindow::newFile()
     modularSynth->clearConfig(true);
 
     fileName = "";
+#ifdef NSM_SUPPORT
+    if (nsm) {
+        fileName = configFile;
+    }
+#endif
     updateWindowTitle();
 }
 
@@ -661,6 +669,12 @@ void MainWindow::fileSaveAs()
 
         fileName = fn;
         saveFile();
+#ifdef NSM_SUPPORT
+        if (nsm && nsm_is_active(nsm)) {
+            fileName = configFile;
+            updateWindowTitle();
+        }
+#endif
     }
     else
         qWarning("%s", tr("Saving aborted").toUtf8().constData());
@@ -679,6 +693,13 @@ void MainWindow::updateWindowTitle()
 
 void MainWindow::closeEvent(QCloseEvent *e)
 {
+#ifdef NSM_SUPPORT
+  if (nsm) {
+    e->accept();
+    return;
+  }
+#endif
+
   if (isSave())
     e->accept();
   else
